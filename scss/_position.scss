@@ -1,0 +1,34 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+    POSITIONING
+
+ */
+
+.pos-stat { position: static; }
+.pos-rel  { position: relative; }
+.pos-abs  { position: absolute; }
+
+@media #{$breakpoint-not-small} {
+  .pos-stat-ns { position: static; }
+  .pos-rel-ns  { position: relative; }
+  .pos-abs-ns  { position: absolute; }
+}
+
+@media #{$breakpoint-medium} {
+  .pos-stat-m { position: static; }
+  .pos-rel-m  { position: relative; }
+  .pos-abs-m  { position: absolute; }
+}
+
+@media #{$breakpoint-large} {
+  .pos-stat-l { position: static; }
+  .pos-rel-l  { position: relative; }
+  .pos-abs-l  { position: absolute; }
+}

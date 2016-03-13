@@ -9,10 +9,16 @@ glob('./node_modules/tachyons/src/**/*.css', (err, files) => {
     throw err
   }
 
+  var baseFile = ''
   files.forEach(file => {
     var css = fs.readFileSync(file, 'utf8')
     var fileName = file.replace(/(\.\/node_modules\/tachyons\/src\/|\.css)/g, '')
 
-    fs.writeFileSync(fileName + '.scss', cssScss(css))
+    if (fileName !== 'tachyons') {
+      fs.writeFileSync('scss/' + fileName + '.scss', cssScss(css))
+      baseFile += '@import "scss/' + fileName + '";\n'
+    }
   })
+
+  fs.writeFileSync('tachyons.scss', baseFile)
 })

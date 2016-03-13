@@ -1,0 +1,74 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   TYPOGRAPHY
+
+*/
+
+.measure  {
+  max-width: 30em;
+}
+
+.indent   {
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Combine this class with a width to truncate text */
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media #{$breakpoint-not-small}{
+  .measure-ns  {
+    max-width: 30em;
+  }
+  .indent-ns   {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .truncate-ns {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media #{$breakpoint-medium} {
+  .measure-m  { max-width: 30em; }
+  .indent-m  {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .truncate-m {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media #{$breakpoint-large} {
+  .measure-l  { max-width: 30em; }
+  .indent-l  {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .truncate-l {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

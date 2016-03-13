@@ -7,7 +7,7 @@ test('tachyons-sass is able to be compiled by node-sass', t => {
 
   const scss = fs.readFileSync('tachyons.scss', 'utf8')
 
-  t.doesNotThrow(() => {
+  t.notThrows(() => {
     sass.renderSync({ data: scss })
   })
 })
