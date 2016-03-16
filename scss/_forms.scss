@@ -13,7 +13,14 @@
 
 .input-text {
   outline: 0;
-  border: 1px solid $silver;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.input-text:focus,
+.input-text:hover {
+  outline: 0;
 }
 
 .input-invisible {

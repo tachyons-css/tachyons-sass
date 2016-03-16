@@ -17,7 +17,7 @@
 .f3    { font-size: 1.25rem; }
 .f4    { font-size: 1rem; }
 .f5,
-.small { font-size: .85rem; }
+.small { font-size: .875rem; }
 
 @media #{$breakpoint-not-small}{
  .mega-ns { font-size: 4rem; }
@@ -25,7 +25,7 @@
  .f2-ns {   font-size: 1.5rem; }
  .f3-ns {   font-size: 1.25em; }
  .f4-ns {   font-size: 1rem; }
- .f5-ns {   font-size: .85rem; }
+ .f5-ns {   font-size: .875rem; }
 }
 
 @media #{$breakpoint-medium} {
@@ -34,7 +34,7 @@
  .f2-m {   font-size: 1.5rem; }
  .f3-m {   font-size: 1.25rem; }
  .f4-m {   font-size: 1rem; }
- .f5-m {   font-size: .85rem; }
+ .f5-m {   font-size: .875rem; }
 }
 
 @media #{$breakpoint-large} {
@@ -43,5 +43,5 @@
  .f2-l   { font-size: 1.5rem; }
  .f3-l   { font-size: 1.25rem; }
  .f4-l   { font-size: 1rem; }
- .f5-l   { font-size: .85rem; }
+ .f5-l   { font-size: .875rem; }
 }
