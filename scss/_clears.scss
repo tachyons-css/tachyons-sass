@@ -1,0 +1,45 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+$breakpoint-not-small: 'screen and (min-width: 48em)' !default;
+$breakpoint-medium: 'screen and (min-width: 48em) and (max-width: 64em)' !default;
+$breakpoint-large: 'screen and (min-width: 64em)' !default;
+
+/*
+
+   CLEARFIX
+
+*/
+
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
+
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+
+@media #{$breakpoint-not-small} {
+  .cl-ns { clear: left; }
+  .cr-ns { clear: right; }
+  .cb-ns { clear: both; }
+}
+
+@media #{$breakpoint-medium} {
+  .cl-m { clear: left; }
+  .cr-m { clear: right; }
+  .cb-m { clear: both; }
+}
+
+@media #{$breakpoint-large} {
+  .cl-l { clear: left; }
+  .cr-l { clear: right; }
+  .cb-l { clear: both; }
+}

@@ -4,6 +4,9 @@
 
 // Custom Media Query Variables
 
+$breakpoint-not-small: 'screen and (min-width: 48em)' !default;
+$breakpoint-medium: 'screen and (min-width: 48em) and (max-width: 64em)' !default;
+$breakpoint-large: 'screen and (min-width: 64em)' !default;
 
 /*
 
@@ -11,20 +14,20 @@
 
 */
 
-.fsn     { font-style: normal; }
-.i       { font-style: italic; }
+.i         { font-style: italic; }
+.fs-normal { font-style: normal; }
 
 @media #{$breakpoint-not-small} {
-  .fsn-ns     { font-style: normal; }
   .i-ns       { font-style: italic; }
+  .fs-normal-ns     { font-style: normal; }
 }
 
 @media #{$breakpoint-medium} {
-  .fsn-m     { font-style: normal; }
   .i-m       { font-style: italic; }
+  .fs-normal-m     { font-style: normal; }
 }
 
 @media #{$breakpoint-large} {
-  .fsn-l     { font-style: normal; }
   .i-l       { font-style: italic; }
+  .fs-normal-l     { font-style: normal; }
 }

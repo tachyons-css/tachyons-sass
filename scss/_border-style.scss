@@ -4,6 +4,9 @@
 
 // Custom Media Query Variables
 
+$breakpoint-not-small: 'screen and (min-width: 48em)' !default;
+$breakpoint-medium: 'screen and (min-width: 48em) and (max-width: 64em)' !default;
+$breakpoint-large: 'screen and (min-width: 64em)' !default;
 
 /*
 
@@ -15,6 +18,7 @@
    Modifiers:
      none   = none
      dotted = dotted
+     dashed = dashed
      solid  = solid
 
    Media Query Extensions:
@@ -24,24 +28,28 @@
 
  */
 
-.bs-none {   border-style: none; }
-.bs-dotted { border-style: dotted; }
-.bs-solid {  border-style: solid; }
+.b--none {   border-style: none; }
+.b--dotted { border-style: dotted; }
+.b--dashed { border-style: dashed; }
+.b--solid {  border-style: solid; }
 
 @media #{$breakpoint-not-small} {
-  .bs-none-ns {   border-style: none; }
-  .bs-dotted-ns { border-style: dotted; }
-  .bs-solid-ns {  border-style: solid; }
+  .b--none-ns {   border-style: none; }
+  .b--dotted-ns { border-style: dotted; }
+  .b--dashed-ns { border-style: dashed; }
+  .b--solid-ns {  border-style: solid; }
 }
 
 @media #{$breakpoint-medium} {
-  .bs-none-m {   border-style: none; }
-  .bs-dotted-m { border-style: dotted; }
-  .bs-solid-m {  border-style: solid; }
+  .b--none-m {   border-style: none; }
+  .b--dotted-m { border-style: dotted; }
+  .b--dashed-m { border-style: dashed; }
+  .b--solid-m {  border-style: solid; }
 }
 
 @media #{$breakpoint-large} {
-  .bs-none-l {   border-style: none; }
-  .bs-dotted-l { border-style: dotted; }
-  .bs-solid-l {  border-style: solid; }
+  .b--none-l {   border-style: none; }
+  .b--dotted-l { border-style: dotted; }
+  .b--dashed-l { border-style: dashed; }
+  .b--solid-l {  border-style: solid; }
 }

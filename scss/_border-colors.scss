@@ -1,25 +1,60 @@
 
 // Converted Variables
 
+$black: #000 !default;
+$near-black: #111 !default;
+$dark-gray: #333 !default;
+$mid-gray: #555 !default;
+$gray: #777 !default;
+$silver: #999 !default;
+$light-silver: #aaa !default;
+$moon-gray: #ccc !default;
+$light-gray: #eee !default;
+$near-white: #f4f4f4 !default;
+$white: #fff !default;
+$transparent: transparent !default;
+$black-90: rgba(0,0,0,.9) !default;
+$black-80: rgba(0,0,0,.8) !default;
+$black-70: rgba(0,0,0,.7) !default;
+$black-60: rgba(0,0,0,.6) !default;
+$black-50: rgba(0,0,0,.5) !default;
+$black-40: rgba(0,0,0,.4) !default;
+$black-30: rgba(0,0,0,.3) !default;
+$black-20: rgba(0,0,0,.2) !default;
+$black-10: rgba(0,0,0,.1) !default;
+$black-05: rgba(0,0,0,.05) !default;
+$black-025: rgba(0,0,0,.025) !default;
+$black-0125: rgba(0,0,0,.0125) !default;
+$white-90: rgba(255,255,255,.9) !default;
+$white-80: rgba(255,255,255,.8) !default;
+$white-70: rgba(255,255,255,.7) !default;
+$white-60: rgba(255,255,255,.6) !default;
+$white-50: rgba(255,255,255,.5) !default;
+$white-40: rgba(255,255,255,.4) !default;
+$white-30: rgba(255,255,255,.3) !default;
+$white-20: rgba(255,255,255,.2) !default;
+$white-10: rgba(255,255,255,.1) !default;
+$white-05: rgba(255,255,255,.05) !default;
+$white-025: rgba(255,255,255,.025) !default;
+$white-0125: rgba(255,255,255,.0125) !default;
 
 // Custom Media Query Variables
 
 
 /*
 
+   Tachyons
+   COLOR VARIABLES
+
+   Grayscale
+   - Solids
+   - Transparencies
+*/
+/*
+
    BORDER COLORS
 
-   Use in cobmination with the _borders.css module
-   Or for more flexibility the _border-styles.css and _border-widths.css modules
-
-   Base:
-     b-- = border
-
-   Modifiers:
-     Add a border color. There is a one to one mapping of color values
-     in the _colors.css module.
-
- */
+*/
 
 .b--black {        border-color: $black; }
 .b--near-black {   border-color: $near-black; }
@@ -32,70 +67,30 @@
 .b--near-white {   border-color: $near-white; }
 .b--white {        border-color: $white; }
 
-.b--white-10 {   border-color: hsla(0, 0, 100%, .1); }
-.b--white-20 {   border-color: hsla(0, 0, 100%, .2); }
-.b--white-25 {   border-color: hsla(0, 0, 100%, .25); }
-.b--white-30 {   border-color: hsla(0, 0, 100%, .3); }
-.b--white-40 {   border-color: hsla(0, 0, 100%, .4); }
-.b--white-50 {   border-color: hsla(0, 0, 100%, .5); }
-.b--white-60 {   border-color: hsla(0, 0, 100%, .6); }
-.b--white-70 {   border-color: hsla(0, 0, 100%, .7); }
-.b--white-75 {   border-color: hsla(0, 0, 100%, .75); }
-.b--white-80 {   border-color: hsla(0, 0, 100%, .8); }
-.b--white-90 {   border-color: hsla(0, 0, 100%, .9); }
+.b--white-90 {   border-color: $white-90; }
+.b--white-80 {   border-color: $white-80; }
+.b--white-70 {   border-color: $white-70; }
+.b--white-60 {   border-color: $white-60; }
+.b--white-50 {   border-color: $white-50; }
+.b--white-40 {   border-color: $white-40; }
+.b--white-30 {   border-color: $white-30; }
+.b--white-20 {   border-color: $white-20; }
+.b--white-10 {   border-color: $white-10; }
+.b--white-05 {   border-color: $white-05; }
+.b--white-025 {   border-color: $white-025; }
+.b--white-0125 {   border-color: $white-0125; }
 
-.b--black-0125 {   border-color: hsla(0, 0, 0,  .0125); }
-.b--black-025 {   border-color: hsla(0, 0, 0,   .025); }
-.b--black-05 {   border-color: hsla(0, 0, 0,    .05); }
-.b--black-10 {   border-color: hsla(0, 0, 0,    .1); }
-.b--black-20 {   border-color: hsla(0, 0, 0,    .2); }
-.b--black-25 {   border-color: hsla(0, 0, 0,    .25); }
-.b--black-30 {   border-color: hsla(0, 0, 0,    .3); }
-.b--black-40 {   border-color: hsla(0, 0, 0,    .4); }
-.b--black-50 {   border-color: hsla(0, 0, 0,    .5); }
-.b--black-60 {   border-color: hsla(0, 0, 0,    .6); }
-.b--black-70 {   border-color: hsla(0, 0, 0,    .7); }
-.b--black-75 {   border-color: hsla(0, 0, 0,    .75); }
-.b--black-80 {   border-color: hsla(0, 0, 0,    .8); }
-.b--black-90 {   border-color: hsla(0, 0, 0,    .9); }
+.b--black-90 {   border-color: $black-90; }
+.b--black-80 {   border-color: $black-80; }
+.b--black-70 {   border-color: $black-70; }
+.b--black-60 {   border-color: $black-60; }
+.b--black-50 {   border-color: $black-50; }
+.b--black-40 {   border-color: $black-40; }
+.b--black-30 {   border-color: $black-30; }
+.b--black-20 {   border-color: $black-20; }
+.b--black-10 {   border-color: $black-10; }
+.b--black-05 {   border-color: $black-05; }
+.b--black-025 {   border-color: $black-025; }
+.b--black-0125 {   border-color: $black-0125; }
 
-.b--blue { border-color: $blue; }
-.b--light-blue { border-color: $light-blue; }
-.b--lightest-blue { border-color: $lightest-blue; }
-.b--dark-blue { border-color: $dark-blue; }
-.b--darkest-blue { border-color: $darkest-blue; }
-.b--yellow { border-color: $yellow; }
-.b--light-yellow { border-color: $light-yellow; }
-.b--lightest-yellow { border-color: $lightest-yellow; }
-.b--dark-yellow { border-color: $dark-yellow; }
-.b--darkest-yellow { border-color: $darkest-yellow; }
-.b--orange { border-color: $orange; }
-.b--light-orange { border-color: $light-orange; }
-.b--lightest-orange { border-color: $lightest-orange; }
-.b--dark-orange { border-color: $dark-orange; }
-.b--darkest-orange { border-color: $darkest-orange; }
-.b--red { border-color: $red; }
-.b--light-red { border-color: $light-red; }
-.b--lightest-red { border-color: $lightest-red; }
-.b--dark-red { border-color: $dark-red; }
-.b--darkest-red { border-color: $darkest-red; }
-.b--teal { border-color: $teal; }
-.b--light-teal { border-color: $light-teal; }
-.b--lightest-teal { border-color: $lightest-teal; }
-.b--dark-teal { border-color: $dark-teal; }
-.b--darkest-teal { border-color: $darkest-teal; }
-.b--green { border-color: $green; }
-.b--light-green { border-color: $light-green; }
-.b--lightest-green { border-color: $lightest-green; }
-.b--dark-green { border-color: $dark-green; }
-.b--darkest-green { border-color: $darkest-green; }
-.b--pink { border-color: $pink; }
-.b--light-pink { border-color: $light-pink; }
-.b--lightest-pink { border-color: $lightest-pink; }
-.b--dark-pink { border-color: $dark-pink; }
-.b--darkest-pink { border-color: $darkest-pink; }
-.b--purple { border-color: $purple; }
-.b--light-purple { border-color: $light-purple; }
-.b--lightest-purple { border-color: $lightest-purple; }
-.b--dark-purple { border-color: $dark-purple; }
-.b--darkest-purple { border-color: $darkest-purple; }
+.b--transparent { border-color: $transparent; }

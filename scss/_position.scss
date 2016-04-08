@@ -4,6 +4,9 @@
 
 // Custom Media Query Variables
 
+$breakpoint-not-small: 'screen and (min-width: 48em)' !default;
+$breakpoint-medium: 'screen and (min-width: 48em) and (max-width: 64em)' !default;
+$breakpoint-large: 'screen and (min-width: 64em)' !default;
 
 /*
 
@@ -11,24 +14,28 @@
 
  */
 
-.pos-stat { position: static; }
-.pos-rel  { position: relative; }
-.pos-abs  { position: absolute; }
+.static { position: static; }
+.relative  { position: relative; }
+.absolute  { position: absolute; }
+.fixed  { position: fixed; }
 
 @media #{$breakpoint-not-small} {
-  .pos-stat-ns { position: static; }
-  .pos-rel-ns  { position: relative; }
-  .pos-abs-ns  { position: absolute; }
+  .static-ns { position: static; }
+  .relative-ns  { position: relative; }
+  .absolute-ns  { position: absolute; }
+  .fixed-ns  { position: fixed; }
 }
 
 @media #{$breakpoint-medium} {
-  .pos-stat-m { position: static; }
-  .pos-rel-m  { position: relative; }
-  .pos-abs-m  { position: absolute; }
+  .static-m { position: static; }
+  .relative-m  { position: relative; }
+  .absolute-m  { position: absolute; }
+  .fixed-m  { position: fixed; }
 }
 
 @media #{$breakpoint-large} {
-  .pos-stat-l { position: static; }
-  .pos-rel-l  { position: relative; }
-  .pos-abs-l  { position: absolute; }
+  .static-l { position: static; }
+  .relative-l  { position: relative; }
+  .absolute-l  { position: absolute; }
+  .fixed-l  { position: fixed; }
 }

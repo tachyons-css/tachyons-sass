@@ -4,6 +4,9 @@
 
 // Custom Media Query Variables
 
+$breakpoint-not-small: 'screen and (min-width: 48em)' !default;
+$breakpoint-medium: 'screen and (min-width: 48em) and (max-width: 64em)' !default;
+$breakpoint-large: 'screen and (min-width: 64em)' !default;
 
 /*
 
@@ -11,11 +14,25 @@
 
 */
 
-.measure  {
+
+
+/* Measure is limited to ~66 characters */
+.measure {
   max-width: 30em;
 }
 
-.indent   {
+/* Measure is limited to ~80 characters */
+.measure-wide {
+  max-width: 34em;
+}
+
+/* Measure is limited to ~45 characters */
+.measure-narrow {
+  max-width: 20em;
+}
+
+/* Book paragraph style - paragraphs are indented with no vertical spacing. */
+.indent {
   text-indent: 1em;
   margin-top: 0;
   margin-bottom: 0;
@@ -29,11 +46,17 @@
   text-overflow: ellipsis;
 }
 
-@media #{$breakpoint-not-small}{
+@media #{$breakpoint-not-small} {
   .measure-ns  {
     max-width: 30em;
   }
-  .indent-ns   {
+  .measure-wide-ns {
+    max-width: 34em;
+  }
+  .measure-narrow-ns {
+    max-width: 20em;
+  }
+  .indent-ns {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
@@ -46,8 +69,16 @@
 }
 
 @media #{$breakpoint-medium} {
-  .measure-m  { max-width: 30em; }
-  .indent-m  {
+  .measure-m {
+    max-width: 30em;
+  }
+  .measure-wide-m {
+    max-width: 34em;
+  }
+  .measure-narrow-m {
+    max-width: 20em;
+  }
+  .indent-m {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
@@ -60,8 +91,16 @@
 }
 
 @media #{$breakpoint-large} {
-  .measure-l  { max-width: 30em; }
-  .indent-l  {
+  .measure-l {
+    max-width: 30em;
+  }
+  .measure-wide-l {
+    max-width: 34em;
+  }
+  .measure-narrow-l {
+    max-width: 20em;
+  }
+  .indent-l {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;

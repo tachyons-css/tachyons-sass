@@ -1,16 +1,13 @@
-@import "scss/_colors";
-@import "scss/_media-queries";
-
 @import "scss/_background-size";
-@import "scss/_base";
 @import "scss/_border-colors";
 @import "scss/_border-radius";
 @import "scss/_border-style";
 @import "scss/_border-widths";
 @import "scss/_borders";
 @import "scss/_box-sizing";
-@import "scss/_clearfix";
+@import "scss/_clears";
 @import "scss/_code";
+@import "scss/_colors";
 @import "scss/_coordinates";
 @import "scss/_debug_children";
 @import "scss/_debug";
@@ -29,16 +26,16 @@
 @import "scss/_links";
 @import "scss/_lists";
 @import "scss/_max-widths";
+@import "scss/_media-queries";
 @import "scss/_module-template";
 @import "scss/_normalize";
+@import "scss/_opacity";
+@import "scss/_outlines";
 @import "scss/_overflow";
 @import "scss/_position";
 @import "scss/_skins";
-@import "scss/_spacing_fallback";
 @import "scss/_spacing";
 @import "scss/_styles";
-@import "scss/_svg-fills";
-@import "scss/_svg-strokes";
 @import "scss/_text-align";
 @import "scss/_text-decoration";
 @import "scss/_text-transform";
@@ -49,3 +46,4 @@
 @import "scss/_visibility";
 @import "scss/_white-space";
 @import "scss/_widths";
+@import "scss/_word-break";
