@@ -4,6 +4,9 @@
 
 // Custom Media Query Variables
 
+$breakpoint-not-small: 'screen and (min-width: 48em)' !default;
+$breakpoint-medium: 'screen and (min-width: 48em) and (max-width: 64em)' !default;
+$breakpoint-large: 'screen and (min-width: 64em)' !default;
 
 /*
 
@@ -13,14 +16,19 @@
     bg = background-size
 
    Modifiers:
-    cv = cover
-    cn = contain
+    -cv = cover
+    -cn = contain
 
    Media Query Extensions:
      -ns = not-small
      -m  = medium
      -l  = large
 
+*/
+
+/*
+  Often used in combination with background image set as an inline style
+  on an html element.
 */
 
   .bg-cv  {               background-size: cover; }

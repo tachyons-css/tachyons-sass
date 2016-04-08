@@ -2,7 +2,7 @@
   "name": "tachyons-sass",
   "description": "Transpiled Sass partials for Tachyons",
   "author": "John Otander",
-  "version": "4.0.0-beta.12",
+  "version": "4.0.0-beta.20",
   "style": "tachyons.scss",
   "scripts": {
     "start": "node build.js",
@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "tachyons": "^4.0.0-beta.12"
+    "tachyons": "^4.0.0-beta.20"
   },
   "devDependencies": {
     "ava": "^0.13.0",

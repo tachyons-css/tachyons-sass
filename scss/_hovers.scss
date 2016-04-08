@@ -4,6 +4,9 @@
 
 // Custom Media Query Variables
 
+$breakpoint-not-small: 'screen and (min-width: 48em)' !default;
+$breakpoint-medium: 'screen and (min-width: 48em) and (max-width: 64em)' !default;
+$breakpoint-large: 'screen and (min-width: 64em)' !default;
 
 /*
 
@@ -12,22 +15,22 @@
 
 */
 
-/*
-
+/* 
+  
   Dim element on hover by adding the dim class.
 
 */
-.dim {
-  opacity: 1;
-  transition: opacity .15s ease-in;
+.dim { 
+  opacity: 1; 
+  transition: opacity .15s ease-in; 
 }
 .dim:hover,
-.dim:focus {
-  opacity: .5;
-  transition: opacity .15s ease-in;
+.dim:focus { 
+  opacity: .5; 
+  transition: opacity .15s ease-in; 
 }
 .dim:active {
-  opacity: .8; transition: opacity .15s ease-out;
+  opacity: .8; transition: opacity .15s ease-out; 
 }
 
 /*
@@ -49,11 +52,6 @@
   opacity: 0;
   transition: opacity .15s ease-in;
 }
-
-.hide-child:hover  .child {
-  cursor: pointer;
-}
-
 .hide-child:hover  .child,
 .hide-child:focus  .child,
 .hide-child:active .child {
