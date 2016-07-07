@@ -16,7 +16,8 @@
   font-family: -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                helvetica, 'helvetica neue',
-               Ubuntu,
+               ubuntu,
+               roboto, noto,
                'segoe ui', arial,
                sans-serif;
 }
@@ -49,9 +50,13 @@ code, .code {
 /* Sans-Serif Typefaces */
 
 .helvetica {
-  font-family:  helvetica, 'helvetica neue',
-                arial,
-                sans-serif;
+  font-family: 'helvetica neue', helvetica,
+               sans-serif;
+}
+
+.avenir {
+  font-family: 'avenir next', avenir,
+               sans-serif;
 }
 
 
@@ -63,7 +68,7 @@ code, .code {
 }
 
 .times {
-  font-family: Times,
+  font-family: times,
                serif;
 }
 
@@ -78,6 +83,11 @@ code, .code {
 }
 
 .garamond {
+  font-family: garamond,
+               serif;
+}
+
+.baskerville {
   font-family: garamond,
                serif;
 }

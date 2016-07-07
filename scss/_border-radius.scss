@@ -45,6 +45,14 @@ $breakpoint-large: 'screen and (min-width: 64em)' !default;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
   }
+  .br--right {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .br--left {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+  }
 
 @media #{$breakpoint-not-small} {
   .br0-ns {     border-radius: 0; }
@@ -59,6 +67,14 @@ $breakpoint-large: 'screen and (min-width: 64em)' !default;
   }
   .br--top-ns {
       border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+  }
+  .br--right-ns {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .br--left-ns {
+      border-top-right-radius: 0;
       border-bottom-right-radius: 0;
   }
 }
@@ -78,6 +94,14 @@ $breakpoint-large: 'screen and (min-width: 64em)' !default;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
   }
+  .br--right-m {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .br--left-m {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+  }
 }
 
 @media #{$breakpoint-large} {
@@ -93,6 +117,14 @@ $breakpoint-large: 'screen and (min-width: 64em)' !default;
   }
   .br--top-l {
       border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+  }
+  .br--right-l {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .br--left-l {
+      border-top-right-radius: 0;
       border-bottom-right-radius: 0;
   }
 }
