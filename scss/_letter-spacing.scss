@@ -4,9 +4,6 @@
 
 // Custom Media Query Variables
 
-$breakpoint-not-small: 'screen and (min-width: 48em)' !default;
-$breakpoint-medium: 'screen and (min-width: 48em) and (max-width: 64em)' !default;
-$breakpoint-large: 'screen and (min-width: 64em)' !default;
 
 /*
 
@@ -14,24 +11,24 @@ $breakpoint-large: 'screen and (min-width: 64em)' !default;
 
 */
 
-.tracked       { letter-spacing:  .16em; }
+.tracked       { letter-spacing:  .1em; }
 .tracked-tight { letter-spacing: -.05em; }
-.tracked-mega  { letter-spacing:  .32em; }
+.tracked-mega  { letter-spacing:  .25em; }
 
 @media #{$breakpoint-not-small} {
-  .tracked-ns       { letter-spacing:  .16em; }
+  .tracked-ns       { letter-spacing:  .1em; }
   .tracked-tight-ns { letter-spacing: -.05em; }
-  .tracked-mega-ns  { letter-spacing:  .32em; }
+  .tracked-mega-ns  { letter-spacing:  .25em; }
 }
 
 @media #{$breakpoint-medium} {
-  .tracked-m       { letter-spacing:  .16em; }
+  .tracked-m       { letter-spacing:  .1em; }
   .tracked-tight-m { letter-spacing: -.05em; }
-  .tracked-mega-m  { letter-spacing:  .32em; }
+  .tracked-mega-m  { letter-spacing:  .25em; }
 }
 
 @media #{$breakpoint-large} {
-  .tracked-l       { letter-spacing:  .16em; }
+  .tracked-l       { letter-spacing:  .1em; }
   .tracked-tight-l { letter-spacing: -.05em; }
-  .tracked-mega-l  { letter-spacing:  .32em; }
+  .tracked-mega-l  { letter-spacing:  .25em; }
 }
