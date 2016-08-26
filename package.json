@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "tachyons": "^4.0.1"
+    "tachyons": "^4.1.2"
   },
   "devDependencies": {
     "ava": "^0.15.2",
