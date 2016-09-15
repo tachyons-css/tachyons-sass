@@ -8,6 +8,7 @@
 /*
 
    BORDER COLORS
+   Docs: http://tachyons.io/docs/themes/borders/
 
    Border colors can be used to extend the base
    border classes ba,bt,bb,br,bl found in the _borders.css file.
@@ -61,28 +62,30 @@
 .b--black-025 {   border-color: $black-025; }
 .b--black-0125 {   border-color: $black-0125; }
 
-.b--dark-red { border-color:  $dark-red; }
-.b--red { border-color:  $red; }
-.b--orange { border-color:  $orange; }
-.b--gold { border-color:  $gold; }
-.b--yellow { border-color:  $yellow; }
-.b--purple { border-color:  $purple; }
-.b--light-purple { border-color:  $light-purple; }
-.b--hot-pink { border-color:  $hot-pink; }
-.b--dark-pink { border-color:  $dark-pink; }
-.b--pink { border-color:  $pink; }
-.b--dark-green { border-color:  $dark-green; }
-.b--green { border-color:  $green; }
-.b--navy { border-color:  $navy; }
-.b--dark-blue { border-color:  $dark-blue; }
-.b--blue { border-color:  $blue; }
-.b--light-blue { border-color:  $light-blue; }
-.b--lightest-blue { border-color:  $lightest-blue; }
-.b--washed-blue { border-color:  $washed-blue; }
-.b--washed-green { border-color:  $washed-green; }
-.b--washed-yellow { border-color:  $washed-yellow; }
-.b--light-pink { border-color:  $light-pink; }
-.b--light-yellow { border-color:  $light-yellow }
-.b--light-red { border-color:  $light-red; }
+.b--dark-red { border-color: $dark-red; }
+.b--red { border-color: $red; }
+.b--light-red { border-color: $light-red; }
+.b--orange { border-color: $orange; }
+.b--gold { border-color: $gold; }
+.b--yellow { border-color: $yellow; }
+.b--light-yellow { border-color: $light-yellow; }
+.b--purple { border-color: $purple; }
+.b--light-purple { border-color: $light-purple; }
+.b--dark-pink { border-color: $dark-pink; }
+.b--hot-pink { border-color: $hot-pink; }
+.b--pink { border-color: $pink; }
+.b--light-pink { border-color: $light-pink; }
+.b--dark-green { border-color: $dark-green; }
+.b--green { border-color: $green; }
+.b--light-green { border-color: $light-green; }
+.b--navy { border-color: $navy; }
+.b--dark-blue { border-color: $dark-blue; }
+.b--blue { border-color: $blue; }
+.b--light-blue { border-color: $light-blue; }
+.b--lightest-blue { border-color: $lightest-blue; }
+.b--washed-blue { border-color: $washed-blue; }
+.b--washed-green { border-color: $washed-green; }
+.b--washed-yellow { border-color: $washed-yellow; }
+.b--washed-red { border-color: $washed-red; }
 
 .b--transparent { border-color: $transparent; }

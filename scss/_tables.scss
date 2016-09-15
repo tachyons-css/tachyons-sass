@@ -8,6 +8,7 @@
 /*
 
   TABLES
+  Docs: http://tachyons.io/docs/elements/tables/
 
 */
 
@@ -30,4 +31,12 @@
 
 .striped--near-white:nth-child(odd) {
   background-color: $near-white;
+}
+
+.stripe-light:nth-child(odd) {
+  background-color: $white-10;
+}
+
+.stripe-dark:nth-child(odd) {
+  background-color: $black-10;
 }

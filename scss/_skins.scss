@@ -8,13 +8,13 @@
 /*
 
    SKINS
+   Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
+   If you haven't declared a border color, but set border on an element, it will 
+   be set to the current text color. 
 
 */
-
-
-
 
 /* Text colors */
 
@@ -28,7 +28,6 @@
 .black-20 {         color: $black-20; }
 .black-10 {         color: $black-10; }
 .black-05 {         color: $black-05; }
-
 
 .white-90 {         color: $white-90; }
 .white-80 {         color: $white-80; }
@@ -54,16 +53,20 @@
 
 .dark-red { color: $dark-red; }
 .red { color: $red; }
+.light-red { color: $light-red; }
 .orange { color: $orange; }
 .gold { color: $gold; }
 .yellow { color: $yellow; }
+.light-yellow { color: $light-yellow; }
 .purple { color: $purple; }
 .light-purple { color: $light-purple; }
-.hot-pink { color:  $hot-pink; }
 .dark-pink { color: $dark-pink; }
+.hot-pink { color: $hot-pink; }
 .pink { color: $pink; }
+.light-pink { color: $light-pink; }
 .dark-green { color: $dark-green; }
 .green { color: $green; }
+.light-green { color: $light-green; }
 .navy { color: $navy; }
 .dark-blue { color: $dark-blue; }
 .blue { color: $blue; }
@@ -72,9 +75,7 @@
 .washed-blue { color: $washed-blue; }
 .washed-green { color: $washed-green; }
 .washed-yellow { color: $washed-yellow; }
-.light-pink { color: $light-pink; }
-.light-yellow { color: $light-yellow; }
-.light-red { color: $light-red; }
+.washed-red { color: $washed-red; }
 
 .bg-black-90 {         background-color: $black-90; }
 .bg-black-80 {         background-color: $black-80; }
@@ -115,16 +116,20 @@
 
 .bg-dark-red { background-color: $dark-red; }
 .bg-red { background-color: $red; }
+.bg-light-red { background-color: $light-red; }
 .bg-orange { background-color: $orange; }
 .bg-gold { background-color: $gold; }
 .bg-yellow { background-color: $yellow; }
+.bg-light-yellow { background-color: $light-yellow; }
 .bg-purple { background-color: $purple; }
 .bg-light-purple { background-color: $light-purple; }
-.bg-hot-pink { background-color:  $hot-pink; }
 .bg-dark-pink { background-color: $dark-pink; }
+.bg-hot-pink { background-color: $hot-pink; }
 .bg-pink { background-color: $pink; }
+.bg-light-pink { background-color: $light-pink; }
 .bg-dark-green { background-color: $dark-green; }
 .bg-green { background-color: $green; }
+.bg-light-green { background-color: $light-green; }
 .bg-navy { background-color: $navy; }
 .bg-dark-blue { background-color: $dark-blue; }
 .bg-blue { background-color: $blue; }
@@ -133,57 +138,4 @@
 .bg-washed-blue { background-color: $washed-blue; }
 .bg-washed-green { background-color: $washed-green; }
 .bg-washed-yellow { background-color: $washed-yellow; }
-.bg-light-pink { background-color: $light-pink; }
-.bg-light-yellow { background-color: $light-yellow; }
-.bg-light-red { background-color: $light-red; }
-
-/* Skins for specific pseudoclasses */
-
-.hover-black:hover { color: $black; }
-.hover-near-black:hover { color: $near-black; }
-.hover-dark-gray:hover { color: $dark-gray; }
-.hover-mid-gray:hover { color: $mid-gray; }
-.hover-gray:hover { color: $gray; }
-.hover-silver:hover { color: $silver; }
-.hover-light-silver:hover { color: $light-silver; }
-.hover-moon-gray:hover { color: $moon-gray; }
-.hover-light-gray:hover { color: $light-gray; }
-.hover-near-white:hover { color: $near-white; }
-.hover-white:hover { color: $white; }
-
-.hover-bg-black:hover { background-color: $black; }
-.hover-bg-near-black:hover { background-color: $near-black; }
-.hover-bg-dark-gray:hover { background-color: $dark-gray; }
-.hover-bg-mid-gray:hover { background-color: $mid-gray; }
-.hover-bg-gray:hover { background-color: $gray; }
-.hover-bg-silver:hover { background-color: $silver; }
-.hover-bg-light-silver:hover { background-color: $light-silver; }
-.hover-bg-moon-gray:hover { background-color: $moon-gray; }
-.hover-bg-light-gray:hover { background-color: $light-gray; }
-.hover-bg-near-white:hover { background-color: $near-white; }
-.hover-bg-white:hover { background-color: $white; }
-.hover-bg-transparent:hover { background-color: $transparent; }
-
-.hover-bg-dark-red:hover { background-color: $dark-red; }
-.hover-bg-red:hover { background-color: $red; }
-.hover-bg-orange:hover { background-color: $orange; }
-.hover-bg-gold:hover { background-color: $gold; }
-.hover-bg-yellow:hover { background-color: $yellow; }
-.hover-bg-purple:hover { background-color: $purple; }
-.hover-bg-light-purple:hover { background-color: $light-purple; }
-.hover-bg-hot-pink:hover { background-color:  $hot-pink; }
-.hover-bg-dark-pink:hover { background-color: $dark-pink; }
-.hover-bg-pink:hover { background-color: $pink; }
-.hover-bg-dark-green:hover { background-color: $dark-green; }
-.hover-bg-green:hover { background-color: $green; }
-.hover-bg-navy:hover { background-color: $navy; }
-.hover-bg-dark-blue:hover { background-color: $dark-blue; }
-.hover-bg-blue:hover { background-color: $blue; }
-.hover-bg-light-blue:hover { background-color: $light-blue; }
-.hover-bg-lightest-blue:hover { background-color: $lightest-blue; }
-.hover-bg-washed-blue:hover { background-color: $washed-blue; }
-.hover-bg-washed-green:hover { background-color: $washed-green; }
-.hover-bg-washed-yellow:hover { background-color: $washed-yellow; }
-.hover-bg-light-pink:hover { background-color: $light-pink; }
-.hover-bg-light-yellow:hover { background-color: $light-yellow; }
-.hover-bg-light-red:hover { background-color: $light-red; }
+.bg-washed-red { background-color: $washed-red; }
