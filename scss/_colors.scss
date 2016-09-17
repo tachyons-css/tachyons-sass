@@ -3,8 +3,8 @@
 
 $black: #000 !default;
 $near-black: #111 !default;
-$dark-gray: #333 !default;
-$mid-gray: #555 !default;
+$dark-gray:#333 !default;
+$mid-gray:#555 !default;
 $gray: #777 !default;
 $silver: #999 !default;
 $light-silver: #aaa !default;
@@ -12,7 +12,9 @@ $moon-gray: #ccc !default;
 $light-gray: #eee !default;
 $near-white: #f4f4f4 !default;
 $white: #fff !default;
-$transparent: transparent !default;
+
+$transparent:transparent !default;
+
 $black-90: rgba(0,0,0,.9) !default;
 $black-80: rgba(0,0,0,.8) !default;
 $black-70: rgba(0,0,0,.7) !default;
@@ -25,6 +27,7 @@ $black-10: rgba(0,0,0,.1) !default;
 $black-05: rgba(0,0,0,.05) !default;
 $black-025: rgba(0,0,0,.025) !default;
 $black-0125: rgba(0,0,0,.0125) !default;
+
 $white-90: rgba(255,255,255,.9) !default;
 $white-80: rgba(255,255,255,.8) !default;
 $white-70: rgba(255,255,255,.7) !default;
@@ -37,29 +40,33 @@ $white-10: rgba(255,255,255,.1) !default;
 $white-05: rgba(255,255,255,.05) !default;
 $white-025: rgba(255,255,255,.025) !default;
 $white-0125: rgba(255,255,255,.0125) !default;
-$dark-red: #f00008 !default;
-$red: #ff3223 !default;
-$orange: #f3a801 !default;
-$gold: #f2c800 !default;
-$yellow: #ffde37 !default;
-$purple: #7d5da9 !default;
-$light-purple: #8d4f92 !default;
-$hot-pink: #d62288 !default;
-$dark-pink: #c64774 !default;
-$pink: #f49cc8 !default;
-$dark-green: #006C71 !default;
-$green: #41D69F !default;
-$navy: #001b44 !default;
-$dark-blue: #00449e !default;
-$blue: #357edd !default;
-$light-blue: #96ccff !default;
-$lightest-blue: #cdecff !default;
-$washed-blue: #f6fffe !default;
-$washed-green: #e8fdf5 !default;
-$washed-yellow: #fff8d5 !default;
-$light-pink: #efa4b8 !default;
-$light-yellow: #f3dd70 !default;
-$light-red: #ffd3c0 !default;
+
+$dark-red:  #e7040f !default;
+$red:  #ff4136 !default;
+$light-red:  #ff725c !default;
+$orange:  #ff6300 !default;
+$gold:  #ffb700 !default;
+$yellow:  #ffd700 !default;
+$light-yellow:  #fbf1a9 !default;
+$purple:  #5e2ca5 !default;
+$light-purple:  #a463f2 !default;
+$dark-pink:  #d5008f !default;
+$hot-pink: #ff41b4 !default;
+$pink:  #ff80cc !default;
+$light-pink:  #ffa3d7 !default;
+$dark-green:  #137752 !default;
+$green:  #19a974 !default;
+$light-green:  #9eebcf !default;
+$navy:  #001b44 !default;
+$dark-blue:  #00449e !default;
+$blue:  #357edd !default;
+$light-blue:  #96ccff !default;
+$lightest-blue:  #cdecff !default;
+$washed-blue:  #f6fffe !default;
+$washed-green:  #e8fdf5 !default;
+$washed-yellow:  #fffceb !default;
+$washed-red:  #ffdfdf !default;
+
 
 // Custom Media Query Variables
 
