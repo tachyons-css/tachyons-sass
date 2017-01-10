@@ -1,11 +1,13 @@
+/*! TACHYONS v4.6.1 | http://tachyons.io */
 
 /*
- *    ████████╗ █████╗  ██████╗██╗  ██╗██╗   ██╗ ██████╗ ███╗   ██╗███████╗
- *    ╚══██╔══╝██╔══██╗██╔════╝██║  ██║╚██╗ ██╔╝██╔═══██╗████╗  ██║██╔════╝
- *       ██║   ███████║██║     ███████║ ╚████╔╝ ██║   ██║██╔██╗ ██║███████╗
- *       ██║   ██╔══██║██║     ██╔══██║  ╚██╔╝  ██║   ██║██║╚██╗██║╚════██║
- *       ██║   ██║  ██║╚██████╗██║  ██║   ██║   ╚██████╔╝██║ ╚████║███████║
- *       ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+ *
+ *      ________            ______
+ *      ___  __/_____ _________  /______  ______________________
+ *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
+ *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
+ *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
+ *                                 /____/
  *
  *    TABLE OF CONTENTS
  *
@@ -21,67 +23,72 @@
  *
  */
 
+
+/* External Library Includes */
+@import 'scss/_normalize';
+
+
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-@import "scss/_media-queries";
-@import "scss/_colors";
+@import 'scss/_colors';
+@import 'scss/_media-queries';
+
+/* Debugging */
+@import 'scss/_debug-children';
+@import 'scss/_debug-grid';
 
 /* Uncomment out the line below to help debug layout issues */
-//@import "scss/_debug";
+/* @import 'scss/_debug'; */
 
-@import "scss/_aspect-ratios";
-@import "scss/_background-position";
-@import "scss/_background-size";
-@import "scss/_border-colors";
-@import "scss/_border-radius";
-@import "scss/_border-style";
-@import "scss/_border-widths";
-@import "scss/_borders";
-@import "scss/_box-shadow";
-@import "scss/_box-sizing";
-@import "scss/_clears";
-@import "scss/_code";
-@import "scss/_coordinates";
-@import "scss/_debug-children";
-@import "scss/_debug-grid";
-@import "scss/_display";
-@import "scss/_flexbox";
-@import "scss/_floats";
-@import "scss/_font-family";
-@import "scss/_font-style";
-@import "scss/_font-weight";
-@import "scss/_forms";
-@import "scss/_heights";
-@import "scss/_hovers";
-@import "scss/_images";
-@import "scss/_letter-spacing";
-@import "scss/_line-height";
-@import "scss/_links";
-@import "scss/_lists";
-@import "scss/_max-widths";
-@import "scss/_module-template";
-@import "scss/_nested";
-@import "scss/_normalize";
-@import "scss/_opacity";
-@import "scss/_outlines";
-@import "scss/_overflow";
-@import "scss/_position";
-@import "scss/_rotations";
-@import "scss/_skins-pseudo";
-@import "scss/_skins";
-@import "scss/_spacing";
-@import "scss/_negative-margins";
-@import "scss/_styles";
-@import "scss/_tables";
-@import "scss/_text-align";
-@import "scss/_text-decoration";
-@import "scss/_text-transform";
-@import "scss/_type-scale";
-@import "scss/_typography";
-@import "scss/_utilities";
-@import "scss/_vertical-align";
-@import "scss/_visibility";
-@import "scss/_white-space";
-@import "scss/_widths";
-@import "scss/_word-break";
-@import "scss/_z-index";
+/* Modules */
+@import 'scss/_box-sizing';
+@import 'scss/_aspect-ratios';
+@import 'scss/_images';
+@import 'scss/_background-size';
+@import 'scss/_background-position';
+@import 'scss/_outlines';
+@import 'scss/_borders';
+@import 'scss/_border-colors';
+@import 'scss/_border-radius';
+@import 'scss/_border-style';
+@import 'scss/_border-widths';
+@import 'scss/_box-shadow';
+@import 'scss/_code';
+@import 'scss/_coordinates';
+@import 'scss/_clears';
+@import 'scss/_display';
+@import 'scss/_flexbox';
+@import 'scss/_floats';
+@import 'scss/_font-family';
+@import 'scss/_font-style';
+@import 'scss/_font-weight';
+@import 'scss/_forms';
+@import 'scss/_heights';
+@import 'scss/_letter-spacing';
+@import 'scss/_line-height';
+@import 'scss/_links';
+@import 'scss/_lists';
+@import 'scss/_max-widths';
+@import 'scss/_widths';
+@import 'scss/_overflow';
+@import 'scss/_position';
+@import 'scss/_opacity';
+@import 'scss/_rotations';
+@import 'scss/_skins';
+@import 'scss/_skins-pseudo';
+@import 'scss/_spacing';
+@import 'scss/_negative-margins';
+@import 'scss/_tables';
+@import 'scss/_text-decoration';
+@import 'scss/_text-align';
+@import 'scss/_text-transform';
+@import 'scss/_type-scale';
+@import 'scss/_typography';
+@import 'scss/_utilities';
+@import 'scss/_visibility';
+@import 'scss/_white-space';
+@import 'scss/_vertical-align';
+@import 'scss/_hovers';
+@import 'scss/_z-index';
+@import 'scss/_nested';
+@import 'scss/_styles';

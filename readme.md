@@ -1,4 +1,4 @@
-# tachyons-sass
+# tachyons-sass [![Build Status](https://travis-ci.org/tachyons-css/tachyons-sass.svg?branch=master)](https://travis-ci.org/tachyons-css/tachyons-sass)
 
 Transpiled partials for Tachyons.
 
