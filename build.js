@@ -27,8 +27,10 @@ tachyonsCSS.on('data', (data) => {
   sassStream.push(
     data
       .toString('utf8')
-      .replace(/\.\//g, 'scss/')
-      .replace(/^((.|\n)+)(\n\/\*\sModules(.|\n)+)(\n\/\*\sVariables(.|\n)+)/g, '$1$5$3')
+      .replace(/\.\/_/g, 'scss/') // Update paths
+      .replace(/^((.|\n)+)(\n\/\*\sModules(.|\n)+)(\n\/\*\sVariables(.|\n)+)/g, '$1$5$3') // Move import orders
+      .replace(/\/\*(.*)\*\//g, '// $1') // Change single-line comments to //
+      .replace(/\/\*|\s\*\/?/g, '//') // Change multi-line comments to //
   )
   sassStream.push(null)
   sassStream.pipe(tachyonsSCSS)
