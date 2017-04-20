@@ -32,6 +32,7 @@
 .b--gray {         border-color: $gray; }
 .b--silver {       border-color: $silver; }
 .b--light-silver { border-color: $light-silver; }
+.b--moon-gray {    border-color: $moon-gray; }
 .b--light-gray {   border-color: $light-gray; }
 .b--near-white {   border-color: $near-white; }
 .b--white {        border-color: $white; }
@@ -89,3 +90,4 @@
 .b--washed-red { border-color: $washed-red; }
 
 .b--transparent { border-color: $transparent; }
+.b--inherit { border-color: inherit; }

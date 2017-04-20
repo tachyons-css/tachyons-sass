@@ -3,7 +3,7 @@
 const fs = require('fs')
 const glob = require('glob')
 const cssScss = require('css-scss')
-const stream = require('stream');
+const stream = require('stream')
 
 glob('./node_modules/tachyons/src/**/*.css', (err, files) => {
   if (err) {
@@ -34,4 +34,4 @@ tachyonsCSS.on('data', (data) => {
   )
   sassStream.push(null)
   sassStream.pipe(tachyonsSCSS)
-});
+})

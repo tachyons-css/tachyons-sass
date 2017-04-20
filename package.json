@@ -6,7 +6,8 @@
   "style": "tachyons.scss",
   "scripts": {
     "start": "node build.js",
-    "test": "ava"
+    "test": "ava",
+    "lint": "standard --fix"
   },
   "repository": "tachyons-css/tachyons-sass",
   "keywords": [
@@ -18,12 +19,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "tachyons": "^4.6.1"
+    "tachyons": "^4.7.1"
   },
   "devDependencies": {
-    "ava": "^0.17.0",
+    "ava": "^0.19.1",
     "css-scss": "^0.1.0",
     "glob": "^7.1.1",
-    "node-sass": "^4.0.0"
+    "node-sass": "^4.5.2",
+    "standard": "^10.0.2"
   }
 }
