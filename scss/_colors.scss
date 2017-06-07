@@ -1,9 +1,8 @@
-
 // Converted Variables
 
 $black: #000 !default;
-$near-black: #111 !default;
-$dark-gray:#333 !default;
+$near-black: #4A494A !default;
+$dark-gray: #333 !default;
 $mid-gray:#555 !default;
 $gray: #777 !default;
 $silver: #999 !default;
@@ -41,10 +40,10 @@ $white-05: rgba(255,255,255,.05) !default;
 $white-025: rgba(255,255,255,.025) !default;
 $white-0125: rgba(255,255,255,.0125) !default;
 
-$dark-red:  #e7040f !default;
-$red:  #ff4136 !default;
+$dark-red:  #DB382A !default;
+$red:  #DE493B !default;
 $light-red:  #ff725c !default;
-$orange:  #ff6300 !default;
+$orange:  #f0532d !default;
 $gold:  #ffb700 !default;
 $yellow:  #ffd700 !default;
 $light-yellow:  #fbf1a9 !default;
@@ -67,6 +66,14 @@ $washed-green:  #e8fdf5 !default;
 $washed-yellow:  #fffceb !default;
 $washed-red:  #ffdfdf !default;
 
+
+// Custom Colors
+$cg-red: $dark-red;
+$cinnabar:  $red;
+$splashed-white: #FEFDFC;
+$white-smoke: #F9F8F6;
+$lavender-blush: #FDF5F5;
+$misty-rose: #FAE6E3;
 
 // Custom Media Query Variables
 

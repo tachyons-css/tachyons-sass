@@ -29,9 +29,18 @@
   max-width: 34em;
 }
 
+/* Measure is limited to ~80 characters */
+.measure-widest {
+  max-width: 46em;
+}
+
 /* Measure is limited to ~45 characters */
 .measure-narrow {
   max-width: 20em;
+}
+
+.measure-narrow-title {
+  max-width: 14em;
 }
 
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
@@ -60,8 +69,14 @@
   .measure-wide-ns {
     max-width: 34em;
   }
+  .measure-widest-ns {
+    max-width: 46em;
+  }
   .measure-narrow-ns {
     max-width: 20em;
+  }
+  .measure-narrow-title-ns {
+    max-width: 14em;
   }
   .indent-ns {
     text-indent: 1em;
@@ -85,8 +100,14 @@
   .measure-wide-m {
     max-width: 34em;
   }
+  .measure-widest-m {
+    max-width: 46em;
+  }
   .measure-narrow-m {
     max-width: 20em;
+  }
+  .measure-narrow-title-m {
+    max-width: 14em;
   }
   .indent-m {
     text-indent: 1em;
@@ -110,8 +131,14 @@
   .measure-wide-l {
     max-width: 34em;
   }
+  .measure-widest-l {
+    max-width: 46em;
+  }
   .measure-narrow-l {
     max-width: 20em;
+  }
+  .measure-narrow-title-l {
+    max-width: 14em;
   }
   .indent-l {
     text-indent: 1em;
@@ -122,6 +149,68 @@
     font-variant: small-caps;
   }
   .truncate-l {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media #{$breakpoint-xlarge} {
+  .measure-xl {
+    max-width: 30em;
+  }
+  .measure-wide-xl {
+    max-width: 34em;
+  }
+  .measure-widest-xl {
+    max-width: 46em;
+  }
+  .measure-narrow-xl {
+    max-width: 20em;
+  }
+  .measure-narrow-title-xl {
+    max-width: 14em;
+  }
+  .indent-xl {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .small-caps-xl {
+    font-variant: small-caps;
+  }
+  .truncate-xl {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media #{$breakpoint-xxlarge} {
+  .measure-xxl {
+    max-width: 30em;
+  }
+  .measure-wide-xxl {
+    max-width: 34em;
+  }
+  .measure-widest-xxl {
+    max-width: 46em;
+  }
+  .measure-narrow-xxl {
+    max-width: 20em;
+  }
+  .measure-narrow-title-xxl {
+    max-width: 14em;
+  }
+  .indent-xxl {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .small-caps-xxl {
+    font-variant: small-caps;
+  }
+  .truncate-xxl {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

@@ -14,6 +14,8 @@
      -ns = not-small
      -m  = medium
      -l  = large
+     -xl  = xlarge
+     -xxl  = xxlarge
 
 */
 
@@ -41,4 +43,18 @@
   .relative-l  { position: relative; }
   .absolute-l  { position: absolute; }
   .fixed-l  { position: fixed; }
+}
+
+@media #{$breakpoint-xlarge} {
+  .static-xl { position: static; }
+  .relative-xl  { position: relative; }
+  .absolute-xl  { position: absolute; }
+  .fixed-xl  { position: fixed; }
+}
+
+@media #{$breakpoint-xxlarge} {
+  .static-xxl { position: static; }
+  .relative-xxl  { position: relative; }
+  .absolute-xxl  { position: absolute; }
+  .fixed-xxl  { position: fixed; }
 }
