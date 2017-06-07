@@ -4,9 +4,20 @@
 
 // Custom Media Query Variables
 
-$breakpoint-not-small: 'screen and (min-width: 30em)' !default;
-$breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)' !default;
-$breakpoint-large: 'screen and (min-width: 60em)' !default;
+$breakpoint-not-small: 'screen and (min-width: 37.5em)' !default; // Minimum width 600
+$breakpoint-medium: 'screen and (min-width: 37.5em) and (max-width: 60em)' !default; // Between 600 and 960
+$breakpoint-large: 'screen and (min-width: 60em)' !default; // 960
+$breakpoint-xlarge: 'screen and (min-width: 80em)' !default; // 1280
+$breakpoint-xxlarge: 'screen and (min-width: 100em)' !default; // 1600
+
+// How I used to like to do things - not hooked into the other partials
+$for-phone-only: 'screen and (max-width: 37.5em)' !default; // <= 599
+$for-tablet-portrait-up: 'screen and (min-width: 37.5em)' !default; // 600
+$for-tablet-landscape-up: 'screen and (min-width: 56.25em)' !default; // 900
+$for-desktop-up: 'screen and (min-width: 75em)' !default; // 1200
+$for-med-desktop-up: 'screen and (min-width: 80em)' !default; // 1280
+$for-pro-desktop-up: 'screen and (min-width: 90em)' !default;  // 1440
+$for-big-desktop-up: 'screen and (min-width: 112.5em)' !default;  // 1800
 
 /*
 

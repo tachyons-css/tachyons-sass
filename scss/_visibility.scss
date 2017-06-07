@@ -36,6 +36,14 @@
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
   }
+  .hide-ns {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  ._show-ns {
+    display: block !important;
+    visibility: visible !important;
+  }
 }
 
 @media #{$breakpoint-medium} {
@@ -44,6 +52,14 @@
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
+  }
+  .hide-m {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  ._show-m {
+    display: block !important;
+    visibility: visible !important;
   }
 }
 
@@ -54,5 +70,12 @@
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
   }
+  .hide-l {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  ._show-l {
+    display: block !important;
+    visibility: visible !important;
+  }
 }
-

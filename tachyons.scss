@@ -1,4 +1,4 @@
-// ! TACHYONS v4.6.1 | http://tachyons.io 
+// ! TACHYONS v4.6.1 | http://tachyons.io
 
 //
 //
@@ -15,6 +15,7 @@
 //       - Normalize.css | http://normalize.css.github.io
 //    2. Tachyons Modules
 //    3. Variables
+//       - Variables
 //       - Media Queries
 //       - Colors
 //    4. Debugging
@@ -24,23 +25,23 @@
 //
 
 
-//  External Library Includes 
+//  External Library Includes
 @import 'scss/normalize';
 
-
-//  Variables 
-//  Importing here will allow you to override any variables in the modules 
+//  Variables
+//  Importing here will allow you to override any variables in the modules
 @import 'scss/colors';
 @import 'scss/media-queries';
+@import 'scss/variables';
 
-//  Debugging 
+//  Debugging
 @import 'scss/debug-children';
 @import 'scss/debug-grid';
 
-//  Uncomment out the line below to help debug layout issues 
-//  @import 'scss/debug'; 
+//  Uncomment out the line below to help debug layout issues
+//  @import 'scss/debug';
 
-//  Modules 
+//  Modules
 @import 'scss/box-sizing';
 @import 'scss/aspect-ratios';
 @import 'scss/images';

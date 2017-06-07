@@ -20,14 +20,16 @@
     it    = inline-table
     t     = table
     tc    = table-cell
-    t-row          = table-row
-    t-columm       = table-column
-    t-column-group = table-column-group
+    tr    = table-row
+    tcol  = table-column
+    tcolg = table-column-group
 
    Media Query Extensions:
      -ns = not-small
      -m  = medium
      -l  = large
+     -xl  = xlarge
+     -xxl  = xxlarge
 
 */
 
@@ -109,3 +111,40 @@
   }
 }
 
+@media #{$breakpoint-xlarge} {
+  .dn-xl {              display: none; }
+  .di-xl {              display: inline; }
+  .db-xl {              display: block; }
+  .dib-xl {             display: inline-block; }
+  .dit-xl {             display: inline-table; }
+  .dt-xl {              display: table; }
+  .dtc-xl {             display: table-cell; }
+  .dt-row-xl {          display: table-row; }
+  .dt-row-group-xl {    display: table-row-group; }
+  .dt-column-xl {       display: table-column; }
+  .dt-column-group-xl { display: table-column-group; }
+
+  .dt--fixed-xl {
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+@media #{$breakpoint-xxlarge} {
+  .dn-xxl {              display: none; }
+  .di-xxl {              display: inline; }
+  .db-xxl {              display: block; }
+  .dib-xxl {             display: inline-block; }
+  .dit-xxl {             display: inline-table; }
+  .dt-xxl {              display: table; }
+  .dtc-xxl {             display: table-cell; }
+  .dt-row-xxl {          display: table-row; }
+  .dt-row-group-xxl {    display: table-row-group; }
+  .dt-column-xxl {       display: table-column; }
+  .dt-column-group-xxl { display: table-column-group; }
+
+  .dt--fixed-xxl {
+    table-layout: fixed;
+    width: 100%;
+  }
+}

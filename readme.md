@@ -2,17 +2,9 @@
 
 Transpiled partials for Tachyons.
 
-## Installation
+## Differences
 
-```bash
-npm install --save tachyons-sass
-```
-
-## Usage
-
-```scss
-@import "path/to/tachyons.scss";
-```
+I love PostCSS, but I'm unwilling to give up Sass completely, hence why I use this variation of Tachyons. For my work, I find I need more than what the regular Tachyons or Tachyons Sass offers. I use Sass variables and need more than three breakpoints for media queries. This variation of Tachyons Sass fills that gap. This repo is meant primarily for my work and the way I do things.
 
 ## License
 
