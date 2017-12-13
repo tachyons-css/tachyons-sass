@@ -16,7 +16,7 @@
 .nested-copy-line-height p,
 .nested-copy-line-height ul,
 .nested-copy-line-height ol {
-  line-height: 1.5;
+  line-height: $line-height-copy;
 }
 
 .nested-headline-line-height h1,
@@ -25,7 +25,7 @@
 .nested-headline-line-height h4,
 .nested-headline-line-height h5,
 .nested-headline-line-height h6 {
-  line-height: 1.25;
+  line-height: $font-size-4;
 }
 
 .nested-list-reset ul,
@@ -36,13 +36,13 @@
 }
 
 .nested-copy-indent p+p {
-  text-indent: 1em;
-  margin-top: 0;
-  margin-bottom: 0;
+  text-indent: $letter-spacing-1;
+  margin-top: $spacing-none;
+  margin-bottom: $spacing-none;
 }
 
 .nested-copy-seperator p+p {
-  margin-top: 1.5em;
+  margin-top: $line-height-copyem;
 }
 
 .nested-img img {
@@ -61,4 +61,3 @@
   color: $light-blue;
   transition: color .15s ease-in;
 }
-

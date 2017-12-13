@@ -17,24 +17,24 @@
 
 */
 
-.tracked       { letter-spacing:  .1em; }
-.tracked-tight { letter-spacing: -.05em; }
-.tracked-mega  { letter-spacing:  .25em; }
+.tracked       { letter-spacing:  $letter-spacing-1; }
+.tracked-tight { letter-spacing: $letter-spacing-tight; }
+.tracked-mega  { letter-spacing:  $letter-spacing-2; }
 
 @media #{$breakpoint-not-small} {
-  .tracked-ns       { letter-spacing:  .1em; }
-  .tracked-tight-ns { letter-spacing: -.05em; }
-  .tracked-mega-ns  { letter-spacing:  .25em; }
+  .tracked-ns       { letter-spacing:  $letter-spacing-1; }
+  .tracked-tight-ns { letter-spacing: $letter-spacing-tight; }
+  .tracked-mega-ns  { letter-spacing:  $letter-spacing-2; }
 }
 
 @media #{$breakpoint-medium} {
-  .tracked-m       { letter-spacing:  .1em; }
-  .tracked-tight-m { letter-spacing: -.05em; }
-  .tracked-mega-m  { letter-spacing:  .25em; }
+  .tracked-m       { letter-spacing:  $letter-spacing-1; }
+  .tracked-tight-m { letter-spacing: $letter-spacing-tight; }
+  .tracked-mega-m  { letter-spacing:  $letter-spacing-2; }
 }
 
 @media #{$breakpoint-large} {
-  .tracked-l       { letter-spacing:  .1em; }
-  .tracked-tight-l { letter-spacing: -.05em; }
-  .tracked-mega-l  { letter-spacing:  .25em; }
+  .tracked-l       { letter-spacing:  $letter-spacing-1; }
+  .tracked-tight-l { letter-spacing: $letter-spacing-tight; }
+  .tracked-mega-l  { letter-spacing:  $letter-spacing-2; }
 }
