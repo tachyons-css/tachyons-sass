@@ -14,7 +14,7 @@ glob('./node_modules/tachyons-custom/src/**/*.css', (err, files) => {
     var css = fs.readFileSync(file, 'utf8')
     var fileName = file.replace(/(\.\/node_modules\/tachyons-custom\/src\/|\.css)/g, '')
 
-    if (fileName !== 'tachyons' && fileName !== '_debug' && fileName !== '_variables') {
+    if (fileName !== 'tachyons' && fileName !== '_debug') {
       fs.writeFileSync('scss/' + fileName + '.scss', cssScss(css))
     }
   })
