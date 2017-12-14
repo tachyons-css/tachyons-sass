@@ -3424,9 +3424,9 @@ table@^3.7.8:
     slice-ansi "0.0.4"
     string-width "^2.0.0"
 
-tachyons-custom@^4.9.1:
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/tachyons-custom/-/tachyons-custom-4.9.1.tgz#8408f10b705264097c867a560c7892ca8a53e1d5"
+tachyons-custom@^4.9.2:
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/tachyons-custom/-/tachyons-custom-4.9.2.tgz#0a14b7a0dee1d06745278c2396150615306fe229"
 
 tar-pack@^3.4.0:
   version "3.4.0"
