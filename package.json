@@ -19,7 +19,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "tachyons-custom": "^4.9.0"
+    "tachyons-custom": "^4.9.1"
   },
   "devDependencies": {
     "ava": "^0.22.0",

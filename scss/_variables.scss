@@ -1,22 +1,7 @@
 
 // Converted Variables
 
-/*
-
-    VARIABLES
-
-*/
-
-$sans-serif: -apple-system, BlinkMacSystemFont,
-             'avenir next', avenir,
-             helvetica, 'helvetica neue',
-             ubuntu,
-             roboto,
-             noto,
-             'segoe ui',
-             arial,
-             sans-serif;
-
+$sans-serif: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif !default;
 $serif: georgia, serif !default;
 $code: consolas, monaco, monospace !default;
 $font-size-headline: 6rem !default;
@@ -45,6 +30,7 @@ $spacing-large: 2rem !default;
 $spacing-extra-large: 4rem !default;
 $spacing-extra-extra-large: 8rem !default;
 $spacing-extra-extra-extra-large: 16rem !default;
+$spacing-copy-separator: 1.5em !default;
 $height-1: 1rem !default;
 $height-2: 2rem !default;
 $height-3: 4rem !default;
@@ -149,3 +135,9 @@ $washed-red: #ffdfdf !default;
 $breakpoint-not-small: 'screen and (min-width: 30em)' !default;
 $breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)' !default;
 $breakpoint-large: 'screen and (min-width: 60em)' !default;
+
+/*
+
+    VARIABLES
+
+*/
