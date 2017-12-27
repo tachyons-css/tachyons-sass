@@ -5,36 +5,36 @@
 // Custom Media Query Variables
 
 
-/* 
-  
+/*
+
    SKINS:PSEUDO
 
    Customize the color of an element when
    it is focused or hovered over.
- 
+
  */
 
-.hover-black:hover, 
+.hover-black:hover,
 .hover-black:focus { color: $black; }
-.hover-near-black:hover, 
+.hover-near-black:hover,
 .hover-near-black:focus { color: $near-black; }
-.hover-dark-gray:hover, 
+.hover-dark-gray:hover,
 .hover-dark-gray:focus { color: $dark-gray; }
-.hover-mid-gray:hover, 
+.hover-mid-gray:hover,
 .hover-mid-gray:focus { color: $mid-gray; }
-.hover-gray:hover, 
+.hover-gray:hover,
 .hover-gray:focus { color: $gray; }
-.hover-silver:hover, 
+.hover-silver:hover,
 .hover-silver:focus { color: $silver; }
-.hover-light-silver:hover, 
+.hover-light-silver:hover,
 .hover-light-silver:focus { color: $light-silver; }
-.hover-moon-gray:hover, 
+.hover-moon-gray:hover,
 .hover-moon-gray:focus { color: $moon-gray; }
-.hover-light-gray:hover, 
+.hover-light-gray:hover,
 .hover-light-gray:focus { color: $light-gray; }
-.hover-near-white:hover, 
+.hover-near-white:hover,
 .hover-near-white:focus { color: $near-white; }
-.hover-white:hover, 
+.hover-white:hover,
 .hover-white:focus { color: $white; }
 
 .hover-black-90:hover,
@@ -76,29 +76,29 @@
 .hover-inherit:hover,
 .hover-inherit:focus { color: inherit; }
 
-.hover-bg-black:hover, 
+.hover-bg-black:hover,
 .hover-bg-black:focus { background-color: $black; }
-.hover-bg-near-black:hover, 
+.hover-bg-near-black:hover,
 .hover-bg-near-black:focus { background-color: $near-black; }
-.hover-bg-dark-gray:hover, 
+.hover-bg-dark-gray:hover,
 .hover-bg-dark-gray:focus { background-color: $dark-gray; }
-.hover-bg-mid-gray:hover, 
+.hover-bg-mid-gray:hover,
 .hover-bg-mid-gray:focus { background-color: $mid-gray; }
-.hover-bg-gray:hover, 
+.hover-bg-gray:hover,
 .hover-bg-gray:focus { background-color: $gray; }
-.hover-bg-silver:hover, 
+.hover-bg-silver:hover,
 .hover-bg-silver:focus { background-color: $silver; }
-.hover-bg-light-silver:hover, 
+.hover-bg-light-silver:hover,
 .hover-bg-light-silver:focus { background-color: $light-silver; }
-.hover-bg-moon-gray:hover, 
+.hover-bg-moon-gray:hover,
 .hover-bg-moon-gray:focus { background-color: $moon-gray; }
-.hover-bg-light-gray:hover, 
+.hover-bg-light-gray:hover,
 .hover-bg-light-gray:focus { background-color: $light-gray; }
-.hover-bg-near-white:hover, 
+.hover-bg-near-white:hover,
 .hover-bg-near-white:focus { background-color: $near-white; }
-.hover-bg-white:hover, 
+.hover-bg-white:hover,
 .hover-bg-white:focus { background-color: $white; }
-.hover-bg-transparent:hover, 
+.hover-bg-transparent:hover,
 .hover-bg-transparent:focus { background-color: $transparent; }
 
 .hover-bg-black-90:hover,
