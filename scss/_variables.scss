@@ -132,12 +132,20 @@ $washed-red: #ffdfdf !default;
 
 // Custom Media Query Variables
 
-$breakpoint-not-small: 'screen and (min-width: 30em)' !default;
-$breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)' !default;
-$breakpoint-large: 'screen and (min-width: 60em)' !default;
+//$breakpoint-not-small: 'screen and (min-width: 30em)' !default;
+//$breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)' !default;
+//$breakpoint-large: 'screen and (min-width: 60em)' !default;
 
 /*
 
     VARIABLES
 
 */
+
+$breakpoints: (
+  "":"",
+  "ns": "screen and (min-width: 30em)",
+  "m": "screen and (min-width: 30em) and (max-width: 60em)",
+  "l": "screen and (min-width: 60em)"
+)
+

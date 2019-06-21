@@ -1,12 +1,8 @@
 
 // Converted Variables
-
-
 // Custom Media Query Variables
 
-
 /*
-
   TEXT ALIGN
   Docs: http://tachyons.io/docs/typography/text-align/
 
@@ -18,36 +14,13 @@
     r = right
     c = center
     j = justify
-
-  Media Query Extensions:
-    -ns = not-small
-    -m  = medium
-    -l  = large
-
 */
+@include generateCodeForBreakpoints(){
 
-.tl  { text-align: left; }
-.tr  { text-align: right; }
-.tc  { text-align: center; }
-.tj  { text-align: justify; }
+  .tl#{$breakpointVariable} { text-align: left; }
+  .tr#{$breakpointVariable} { text-align: right; }
+  .tc#{$breakpointVariable} { text-align: center; }
+  .tj#{$breakpointVariable} { text-align: justify; }
 
-@media #{$breakpoint-not-small} {
-  .tl-ns  { text-align: left; }
-  .tr-ns  { text-align: right; }
-  .tc-ns  { text-align: center; }
-  .tj-ns  { text-align: justify; }
 }
 
-@media #{$breakpoint-medium} {
-  .tl-m  { text-align: left; }
-  .tr-m  { text-align: right; }
-  .tc-m  { text-align: center; }
-  .tj-m  { text-align: justify; }
-}
-
-@media #{$breakpoint-large} {
-  .tl-l  { text-align: left; }
-  .tr-l  { text-align: right; }
-  .tc-l  { text-align: center; }
-  .tj-l  { text-align: justify; }
-}
