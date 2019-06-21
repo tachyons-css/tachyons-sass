@@ -1,16 +1,17 @@
 // Helper for Generating Custom Tachyons CSS
 
 // Global Variable for the Loop
-$breakpointVariable: '';
+$breakpoint-variable: '';
 
 //
 @mixin generateCodeForBreakpoints {
+  $breakpoint-variable: '' !global;
   @each $breakpoint, $media in $breakpoints {
-    @if ($breakpoint == "") {
+    @if ($breakpoint == "default") {
       @content
     } @else {
       @media #{$media} {
-        $breakpointVariable: '-' + $breakpoint !global;
+        $breakpoint-variable: '-' + $breakpoint !global;
         @content;
       }
     }

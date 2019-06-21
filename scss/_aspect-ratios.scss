@@ -20,29 +20,29 @@
  * */
 @include generateCodeForBreakpoints(){
 
-  .aspect-ratio#{$breakpointVariable} {
+  .aspect-ratio#{$breakpoint-variable} {
     height: 0;
     position: relative;
   }
 
-  .aspect-ratio--16x9#{$breakpointVariable} { padding-bottom: 56.25%; }
-  .aspect-ratio--9x16#{$breakpointVariable} { padding-bottom: 177.77%; }
+  .aspect-ratio--16x9#{$breakpoint-variable} { padding-bottom: 56.25%; }
+  .aspect-ratio--9x16#{$breakpoint-variable} { padding-bottom: 177.77%; }
 
-  .aspect-ratio--4x3#{$breakpointVariable} {  padding-bottom: 75%; }
-  .aspect-ratio--3x4#{$breakpointVariable} {  padding-bottom: 133.33%; }
+  .aspect-ratio--4x3#{$breakpoint-variable} {  padding-bottom: 75%; }
+  .aspect-ratio--3x4#{$breakpoint-variable} {  padding-bottom: 133.33%; }
 
-  .aspect-ratio--6x4#{$breakpointVariable} {  padding-bottom: 66.6%; }
-  .aspect-ratio--4x6#{$breakpointVariable} {  padding-bottom: 150%; }
+  .aspect-ratio--6x4#{$breakpoint-variable} {  padding-bottom: 66.6%; }
+  .aspect-ratio--4x6#{$breakpoint-variable} {  padding-bottom: 150%; }
 
-  .aspect-ratio--8x5#{$breakpointVariable} {  padding-bottom: 62.5%; }
-  .aspect-ratio--5x8#{$breakpointVariable} {  padding-bottom: 160%; }
+  .aspect-ratio--8x5#{$breakpoint-variable} {  padding-bottom: 62.5%; }
+  .aspect-ratio--5x8#{$breakpoint-variable} {  padding-bottom: 160%; }
 
-  .aspect-ratio--7x5#{$breakpointVariable} {  padding-bottom: 71.42%; }
-  .aspect-ratio--5x7#{$breakpointVariable} {  padding-bottom: 140%; }
+  .aspect-ratio--7x5#{$breakpoint-variable} {  padding-bottom: 71.42%; }
+  .aspect-ratio--5x7#{$breakpoint-variable} {  padding-bottom: 140%; }
 
-  .aspect-ratio--1x1#{$breakpointVariable} {  padding-bottom: 100%; }
+  .aspect-ratio--1x1#{$breakpoint-variable} {  padding-bottom: 100%; }
 
-  .aspect-ratio--object#{$breakpointVariable} {
+  .aspect-ratio--object#{$breakpoint-variable} {
     position: absolute;
     top: 0;
     right: 0;

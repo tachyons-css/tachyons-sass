@@ -22,8 +22,8 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .fl#{$breakpointVariable} { float: left;  _display: inline; }
-  .fr#{$breakpointVariable} { float: right; _display: inline; }
-  .fn#{$breakpointVariable} { float: none; }
+  .fl#{$breakpoint-variable} { float: left;  _display: inline; }
+  .fr#{$breakpoint-variable} { float: right; _display: inline; }
+  .fn#{$breakpoint-variable} { float: none; }
 
 }

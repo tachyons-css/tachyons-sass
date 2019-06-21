@@ -17,27 +17,27 @@
  */
 @include generateCodeForBreakpoints() {
 
-  .bg-center#{$breakpointVariable} {
+  .bg-center#{$breakpoint-variable} {
     background-repeat: no-repeat;
     background-position: center center;
   }
 
-  .bg-top#{$breakpointVariable} {
+  .bg-top#{$breakpoint-variable} {
     background-repeat: no-repeat;
     background-position: top center;
   }
 
-  .bg-right#{$breakpointVariable} {
+  .bg-right#{$breakpoint-variable} {
     background-repeat: no-repeat;
     background-position: center right;
   }
 
-  .bg-bottom#{$breakpointVariable} {
+  .bg-bottom#{$breakpoint-variable} {
     background-repeat: no-repeat;
     background-position: bottom center;
   }
 
-  .bg-left#{$breakpointVariable} {
+  .bg-left#{$breakpoint-variable} {
     background-repeat: no-repeat;
     background-position: center left;
   }

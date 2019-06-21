@@ -22,26 +22,29 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .br0#{$breakpointVariable} {        border-radius: $border-radius-none }
-  .br1#{$breakpointVariable} {        border-radius: $border-radius-1; }
-  .br2#{$breakpointVariable} {        border-radius: $border-radius-2; }
-  .br3#{$breakpointVariable} {        border-radius: $border-radius-3; }
-  .br4#{$breakpointVariable} {        border-radius: $border-radius-4; }
-  .br-100#{$breakpointVariable} {     border-radius: $border-radius-circle; }
-  .br-pill#{$breakpointVariable} {    border-radius: $border-radius-pill; }
-  .br--bottom#{$breakpointVariable} {
+  @each $label, $size in $border-radius{
+    $spacer: '';
+    @if ($label == 100){
+      $spacer: '-';
+    }
+    .br#{$spacer}#{$label}#{$breakpoint-variable} { border-radius: $size; }
+  }
+
+  .br-pill#{$breakpoint-variable} {    border-radius: $border-radius-pill; }
+
+  .br--bottom#{$breakpoint-variable} {
       border-top-left-radius: 0;
       border-top-right-radius: 0;
   }
-  .br--top#{$breakpointVariable} {
+  .br--top#{$breakpoint-variable} {
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
   }
-  .br--right#{$breakpointVariable} {
+  .br--right#{$breakpoint-variable} {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
   }
-  .br--left#{$breakpointVariable} {
+  .br--left#{$breakpoint-variable} {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
   }

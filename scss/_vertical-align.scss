@@ -7,9 +7,9 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .v-base#{$breakpointVariable} { vertical-align: baseline; }
-  .v-mid#{$breakpointVariable}  { vertical-align: middle; }
-  .v-top#{$breakpointVariable}  { vertical-align: top; }
-  .v-btm#{$breakpointVariable}  { vertical-align: bottom; }
+  .v-base#{$breakpoint-variable} { vertical-align: baseline; }
+  .v-mid#{$breakpoint-variable}  { vertical-align: middle; }
+  .v-top#{$breakpoint-variable}  { vertical-align: top; }
+  .v-btm#{$breakpoint-variable}  { vertical-align: bottom; }
 
 }

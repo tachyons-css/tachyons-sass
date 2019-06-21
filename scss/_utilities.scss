@@ -13,12 +13,12 @@
 
 @include generateCodeForBreakpoints(){
 
-  .center#{$breakpointVariable} {
+  .center#{$breakpoint-variable} {
     margin-right: auto;
     margin-left: auto;
   }
 
-  .mr-auto#{$breakpointVariable} { margin-right: auto; }
-  .ml-auto#{$breakpointVariable} { margin-left:  auto; }
+  .mr-auto#{$breakpoint-variable} { margin-right: auto; }
+  .ml-auto#{$breakpoint-variable} { margin-left:  auto; }
 
 }

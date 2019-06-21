@@ -9,8 +9,8 @@
 
 @include generateCodeForBreakpoints(){
 
-  .tracked#{$breakpointVariable}       { letter-spacing:  $letter-spacing-1; }
-  .tracked-tight#{$breakpointVariable} { letter-spacing: $letter-spacing-tight; }
-  .tracked-mega#{$breakpointVariable}  { letter-spacing:  $letter-spacing-2; }
+  @each $label, $size in $letter-spacings {
+    .#{$label}#{$breakpoint-variable} { letter-spacing: $size;}
+  }
 
 }

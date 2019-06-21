@@ -7,9 +7,9 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .ws-normal#{$breakpointVariable} { white-space: normal; }
-  .nowrap#{$breakpointVariable} { white-space: nowrap; }
-  .pre#{$breakpointVariable} { white-space: pre; }
+  .ws-normal#{$breakpoint-variable} { white-space: normal; }
+  .nowrap#{$breakpoint-variable} { white-space: nowrap; }
+  .pre#{$breakpoint-variable} { white-space: pre; }
 
 }
 

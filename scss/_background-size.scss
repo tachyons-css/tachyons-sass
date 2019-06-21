@@ -13,7 +13,7 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .cover#{$breakpointVariable} { background-size: cover!important; }
-  .contain#{$breakpointVariable} { background-size: contain!important; }
+  .cover#{$breakpoint-variable} { background-size: cover!important; }
+  .contain#{$breakpoint-variable} { background-size: contain!important; }
 
 }

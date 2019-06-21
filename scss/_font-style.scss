@@ -9,7 +9,7 @@
 
 @include generateCodeForBreakpoints(){
 
-  .i#{$breakpointVariable}         { font-style: italic; }
-  .fs-normal#{$breakpointVariable} { font-style: normal; }
+  .i#{$breakpoint-variable}         { font-style: italic; }
+  .fs-normal#{$breakpoint-variable} { font-style: normal; }
 
 }

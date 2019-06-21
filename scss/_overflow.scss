@@ -7,19 +7,19 @@
  */
 @include generateCodeForBreakpoints(){
 
-  .overflow-visible#{$breakpointVariable} { overflow: visible; }
-  .overflow-hidden#{$breakpointVariable} { overflow: hidden; }
-  .overflow-scroll#{$breakpointVariable} { overflow: scroll; }
-  .overflow-auto#{$breakpointVariable} { overflow: auto; }
+  .overflow-visible#{$breakpoint-variable} { overflow: visible; }
+  .overflow-hidden#{$breakpoint-variable} { overflow: hidden; }
+  .overflow-scroll#{$breakpoint-variable} { overflow: scroll; }
+  .overflow-auto#{$breakpoint-variable} { overflow: auto; }
 
-  .overflow-x-visible#{$breakpointVariable} { overflow-x: visible; }
-  .overflow-x-hidden#{$breakpointVariable} { overflow-x: hidden; }
-  .overflow-x-scroll#{$breakpointVariable} { overflow-x: scroll; }
-  .overflow-x-auto#{$breakpointVariable} { overflow-x: auto; }
+  .overflow-x-visible#{$breakpoint-variable} { overflow-x: visible; }
+  .overflow-x-hidden#{$breakpoint-variable} { overflow-x: hidden; }
+  .overflow-x-scroll#{$breakpoint-variable} { overflow-x: scroll; }
+  .overflow-x-auto#{$breakpoint-variable} { overflow-x: auto; }
 
-  .overflow-y-visible#{$breakpointVariable} { overflow-y: visible; }
-  .overflow-y-hidden#{$breakpointVariable} { overflow-y: hidden; }
-  .overflow-y-scroll#{$breakpointVariable} { overflow-y: scroll; }
-  .overflow-y-auto#{$breakpointVariable} { overflow-y: auto; }
+  .overflow-y-visible#{$breakpoint-variable} { overflow-y: visible; }
+  .overflow-y-hidden#{$breakpoint-variable} { overflow-y: hidden; }
+  .overflow-y-scroll#{$breakpoint-variable} { overflow-y: scroll; }
+  .overflow-y-auto#{$breakpoint-variable} { overflow-y: auto; }
 
 }

@@ -22,23 +22,23 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .dn#{$breakpointVariable} {              display: none; }
-  .di#{$breakpointVariable} {              display: inline; }
-  .db#{$breakpointVariable} {              display: block; }
-  .dib#{$breakpointVariable} {             display: inline-block; }
-  .dit#{$breakpointVariable} {             display: inline-table; }
-  .dt#{$breakpointVariable} {              display: table; }
-  .dtc#{$breakpointVariable} {             display: table-cell; }
-  .dt-row#{$breakpointVariable} {          display: table-row; }
-  .dt-row-group#{$breakpointVariable} {    display: table-row-group; }
-  .dt-column#{$breakpointVariable} {       display: table-column; }
-  .dt-column-group#{$breakpointVariable} { display: table-column-group; }
+  .dn#{$breakpoint-variable} {              display: none; }
+  .di#{$breakpoint-variable} {              display: inline; }
+  .db#{$breakpoint-variable} {              display: block; }
+  .dib#{$breakpoint-variable} {             display: inline-block; }
+  .dit#{$breakpoint-variable} {             display: inline-table; }
+  .dt#{$breakpoint-variable} {              display: table; }
+  .dtc#{$breakpoint-variable} {             display: table-cell; }
+  .dt-row#{$breakpoint-variable} {          display: table-row; }
+  .dt-row-group#{$breakpoint-variable} {    display: table-row-group; }
+  .dt-column#{$breakpoint-variable} {       display: table-column; }
+  .dt-column-group#{$breakpoint-variable} { display: table-column-group; }
 
   /*
     This will set table to full width and then
     all cells will be equal width
   */
-  .dt--fixed#{$breakpointVariable} {
+  .dt--fixed#{$breakpoint-variable} {
     table-layout: fixed;
     width: 100%;
   }

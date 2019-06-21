@@ -9,8 +9,8 @@
 
 @include generateCodeForBreakpoints(){
 
-  .lh-solid#{$breakpointVariable} { line-height: $line-height-solid; }
-  .lh-title#{$breakpointVariable} { line-height: $line-height-title; }
-  .lh-copy#{$breakpointVariable}  { line-height: $line-height-copy; }
+  @each $label, $lh in $line-heights {
+    .lh-#{$label}#{$breakpoint-variable} {line-height: $lh}
+  }
 
 }

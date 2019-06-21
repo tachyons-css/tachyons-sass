@@ -17,10 +17,10 @@
 
 @include generateCodeForBreakpoints(){
 
-  .cl#{$breakpointVariable} { clear: left; }
-  .cr#{$breakpointVariable} { clear: right; }
-  .cb#{$breakpointVariable} { clear: both; }
-  .cn#{$breakpointVariable} { clear: none; }
+  .cl#{$breakpoint-variable} { clear: left; }
+  .cr#{$breakpoint-variable} { clear: right; }
+  .cb#{$breakpoint-variable} { clear: both; }
+  .cn#{$breakpoint-variable} { clear: none; }
 
 }
 

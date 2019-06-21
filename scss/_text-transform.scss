@@ -17,9 +17,9 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .ttc#{$breakpointVariable} { text-transform: capitalize; }
-  .ttl#{$breakpointVariable} { text-transform: lowercase; }
-  .ttu#{$breakpointVariable} { text-transform: uppercase; }
-  .ttn#{$breakpointVariable} { text-transform: none; }
+  .ttc#{$breakpoint-variable} { text-transform: capitalize; }
+  .ttl#{$breakpoint-variable} { text-transform: lowercase; }
+  .ttu#{$breakpoint-variable} { text-transform: uppercase; }
+  .ttn#{$breakpoint-variable} { text-transform: none; }
 
 }

@@ -19,18 +19,15 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .bw0#{$breakpointVariable} { border-width: $border-width-none; }
-  .bw1#{$breakpointVariable} { border-width: $border-width-1; }
-  .bw2#{$breakpointVariable} { border-width: $border-width-2; }
-  .bw3#{$breakpointVariable} { border-width: $border-width-3; }
-  .bw4#{$breakpointVariable} { border-width: $border-width-4; }
-  .bw5#{$breakpointVariable} { border-width: $border-width-5; }
+  @each $label, $size in $border-width {
+    .bw#{$label}#{$breakpoint-variable} { border-width: $size; }
+  }
 
   /* Resets */
-  .bt-0#{$breakpointVariable} { border-top-width: $border-width-none }
-  .br-0#{$breakpointVariable} { border-right-width: $border-width-none }
-  .bb-0#{$breakpointVariable} { border-bottom-width: $border-width-none }
-  .bl-0#{$breakpointVariable} { border-left-width: $border-width-none }
+  .bt-0#{$breakpoint-variable} { border-top-width: map-get($border-width, 0) }
+  .br-0#{$breakpoint-variable} { border-right-width: map-get($border-width, 0) }
+  .bb-0#{$breakpoint-variable} { border-bottom-width: map-get($border-width, 0) }
+  .bl-0#{$breakpoint-variable} { border-left-width: map-get($border-width, 0) }
 
 }
 

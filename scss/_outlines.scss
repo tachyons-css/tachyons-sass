@@ -7,9 +7,9 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .outline#{$breakpointVariable} { outline: 1px solid; }
-  .outline-transparent#{$breakpointVariable} { outline: 1px solid transparent; }
-  .outline-0#{$breakpointVariable} { outline: 0; }
+  .outline#{$breakpoint-variable} { outline: 1px solid; }
+  .outline-transparent#{$breakpoint-variable} { outline: 1px solid transparent; }
+  .outline-0#{$breakpoint-variable} { outline: 0; }
 
 }
 

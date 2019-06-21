@@ -31,35 +31,24 @@
 @include generateCodeForBreakpoints(){
 
   /* Height Scale */
+  @each $label, $size in $heights {
+    .h#{$label}#{$breakpoint-variable} { height: $size; }
+  }
 
-  .h1#{$breakpointVariable} { height: $height-1; }
-  .h2#{$breakpointVariable} { height: $height-2; }
-  .h3#{$breakpointVariable} { height: $height-3; }
-  .h4#{$breakpointVariable} { height: $height-4; }
-  .h5#{$breakpointVariable} { height: $height-5; }
+  @each $label, $size in $heights-percentage {
+    /* Height Percentages - Based off of height of parent */
+    .h-#{$label}#{$breakpoint-variable} { height: $size * 1%; }
 
-  /* Height Percentages - Based off of height of parent */
+    /* Screen Height Percentage */
+    .vh-#{$label}#{$breakpoint-variable} { height: $size * 1vh; }
+  }
 
-  .h-25#{$breakpointVariable} {  height:  25%; }
-  .h-50#{$breakpointVariable} {  height:  50%; }
-  .h-75#{$breakpointVariable} {  height:  75%; }
-  .h-100#{$breakpointVariable} { height: 100%; }
-
-  .min-h-100#{$breakpointVariable} { min-height: 100%; }
-
-  /* Screen Height Percentage */
-
-  .vh-25#{$breakpointVariable} {  height:  25vh; }
-  .vh-50#{$breakpointVariable} {  height:  50vh; }
-  .vh-75#{$breakpointVariable} {  height:  75vh; }
-  .vh-100#{$breakpointVariable} { height: 100vh; }
-
-  .min-vh-100#{$breakpointVariable} { min-height: 100vh; }
-
+  .min-h-100#{$breakpoint-variable}  { min-height: 100%; }
+  .min-vh-100#{$breakpoint-variable} { min-height: 100vh; }
 
   /* String Properties */
 
-  .h-auto#{$breakpointVariable} {     height: auto; }
-  .h-inherit#{$breakpointVariable} {  height: inherit; }
+  .h-auto#{$breakpoint-variable}    { height: auto; }
+  .h-inherit#{$breakpoint-variable} { height: inherit; }
 
 }

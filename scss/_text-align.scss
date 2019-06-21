@@ -17,10 +17,10 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .tl#{$breakpointVariable} { text-align: left; }
-  .tr#{$breakpointVariable} { text-align: right; }
-  .tc#{$breakpointVariable} { text-align: center; }
-  .tj#{$breakpointVariable} { text-align: justify; }
+  .tl#{$breakpoint-variable} { text-align: left; }
+  .tr#{$breakpoint-variable} { text-align: right; }
+  .tc#{$breakpoint-variable} { text-align: center; }
+  .tj#{$breakpoint-variable} { text-align: justify; }
 
 }
 

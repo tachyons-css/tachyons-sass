@@ -23,32 +23,32 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .top-0#{$breakpointVariable}    { top:    0; }
-  .right-0#{$breakpointVariable}  { right:  0; }
-  .bottom-0#{$breakpointVariable} { bottom: 0; }
-  .left-0#{$breakpointVariable}   { left:   0; }
+  .top-0#{$breakpoint-variable}    { top:    0; }
+  .right-0#{$breakpoint-variable}  { right:  0; }
+  .bottom-0#{$breakpoint-variable} { bottom: 0; }
+  .left-0#{$breakpoint-variable}   { left:   0; }
 
-  .top-1#{$breakpointVariable}    { top:    1rem; }
-  .right-1#{$breakpointVariable}  { right:  1rem; }
-  .bottom-1#{$breakpointVariable} { bottom: 1rem; }
-  .left-1#{$breakpointVariable}   { left:   1rem; }
+  .top-1#{$breakpoint-variable}    { top:    1rem; }
+  .right-1#{$breakpoint-variable}  { right:  1rem; }
+  .bottom-1#{$breakpoint-variable} { bottom: 1rem; }
+  .left-1#{$breakpoint-variable}   { left:   1rem; }
 
-  .top-2#{$breakpointVariable}    { top:    2rem; }
-  .right-2#{$breakpointVariable}  { right:  2rem; }
-  .bottom-2#{$breakpointVariable} { bottom: 2rem; }
-  .left-2#{$breakpointVariable}   { left:   2rem; }
+  .top-2#{$breakpoint-variable}    { top:    2rem; }
+  .right-2#{$breakpoint-variable}  { right:  2rem; }
+  .bottom-2#{$breakpoint-variable} { bottom: 2rem; }
+  .left-2#{$breakpoint-variable}   { left:   2rem; }
 
-  .top--1#{$breakpointVariable}    { top:    -1rem; }
-  .right--1#{$breakpointVariable}  { right:  -1rem; }
-  .bottom--1#{$breakpointVariable} { bottom: -1rem; }
-  .left--1#{$breakpointVariable}   { left:   -1rem; }
+  .top--1#{$breakpoint-variable}    { top:    -1rem; }
+  .right--1#{$breakpoint-variable}  { right:  -1rem; }
+  .bottom--1#{$breakpoint-variable} { bottom: -1rem; }
+  .left--1#{$breakpoint-variable}   { left:   -1rem; }
 
-  .top--2#{$breakpointVariable}    { top:    -2rem; }
-  .right--2#{$breakpointVariable}  { right:  -2rem; }
-  .bottom--2#{$breakpointVariable} { bottom: -2rem; }
-  .left--2#{$breakpointVariable}   { left:   -2rem; }
+  .top--2#{$breakpoint-variable}    { top:    -2rem; }
+  .right--2#{$breakpoint-variable}  { right:  -2rem; }
+  .bottom--2#{$breakpoint-variable} { bottom: -2rem; }
+  .left--2#{$breakpoint-variable}   { left:   -2rem; }
 
-  .absolute--fill#{$breakpointVariable} {
+  .absolute--fill#{$breakpoint-variable} {
     top: 0;
     right: 0;
     bottom: 0;

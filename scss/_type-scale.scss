@@ -26,22 +26,14 @@
    * These generally are too large for mobile
    * so be careful using them on smaller screens.
    * */
-  .f-6,
-  .f-headline#{$breakpointVariable} {
-    font-size: $font-size-headline;
-  }
-  .f-5,
-  .f-subheadline#{$breakpointVariable} {
-    font-size: $font-size-subheadline;
+  @each $label, $size in $headlines{
+    @each $sublabel in $label {
+      .f-#{$sublabel}#{$breakpoint-variable} { font-size: $size; }
+    }
   }
 
-  /* Type Scale */
-  .f1#{$breakpointVariable} { font-size: $font-size-1; }
-  .f2#{$breakpointVariable} { font-size: $font-size-2; }
-  .f3#{$breakpointVariable} { font-size: $font-size-3; }
-  .f4#{$breakpointVariable} { font-size: $font-size-4; }
-  .f5#{$breakpointVariable} { font-size: $font-size-5; }
-  .f6#{$breakpointVariable} { font-size: $font-size-6; }
-  .f7#{$breakpointVariable} { font-size: $font-size-7; }
+  @each $label, $size in $font-sizes{
+    .f#{$label}#{$breakpoint-variable} {font-size: $size}
+  }
 
 }

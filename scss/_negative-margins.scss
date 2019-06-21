@@ -25,44 +25,13 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .na1#{$breakpointVariable} { margin: -$spacing-extra-small; }
-  .na2#{$breakpointVariable} { margin: -$spacing-small; }
-  .na3#{$breakpointVariable} { margin: -$spacing-medium; }
-  .na4#{$breakpointVariable} { margin: -$spacing-large; }
-  .na5#{$breakpointVariable} { margin: -$spacing-extra-large; }
-  .na6#{$breakpointVariable} { margin: -$spacing-extra-extra-large; }
-  .na7#{$breakpointVariable} { margin: -$spacing-extra-extra-extra-large; }
+  @each $label, $size in $spacings {
+    .na#{$label}#{$breakpoint-variable} { margin: -$size; }
 
-  .nl1#{$breakpointVariable} { margin-left: -$spacing-extra-small; }
-  .nl2#{$breakpointVariable} { margin-left: -$spacing-small; }
-  .nl3#{$breakpointVariable} { margin-left: -$spacing-medium; }
-  .nl4#{$breakpointVariable} { margin-left: -$spacing-large; }
-  .nl5#{$breakpointVariable} { margin-left: -$spacing-extra-large; }
-  .nl6#{$breakpointVariable} { margin-left: -$spacing-extra-extra-large; }
-  .nl7#{$breakpointVariable} { margin-left: -$spacing-extra-extra-extra-large; }
-
-  .nr1#{$breakpointVariable} { margin-right: -$spacing-extra-small; }
-  .nr2#{$breakpointVariable} { margin-right: -$spacing-small; }
-  .nr3#{$breakpointVariable} { margin-right: -$spacing-medium; }
-  .nr4#{$breakpointVariable} { margin-right: -$spacing-large; }
-  .nr5#{$breakpointVariable} { margin-right: -$spacing-extra-large; }
-  .nr6#{$breakpointVariable} { margin-right: -$spacing-extra-extra-large; }
-  .nr7#{$breakpointVariable} { margin-right: -$spacing-extra-extra-extra-large; }
-
-  .nb1#{$breakpointVariable} { margin-bottom: -$spacing-extra-small; }
-  .nb2#{$breakpointVariable} { margin-bottom: -$spacing-small; }
-  .nb3#{$breakpointVariable} { margin-bottom: -$spacing-medium; }
-  .nb4#{$breakpointVariable} { margin-bottom: -$spacing-large; }
-  .nb5#{$breakpointVariable} { margin-bottom: -$spacing-extra-large; }
-  .nb6#{$breakpointVariable} { margin-bottom: -$spacing-extra-extra-large; }
-  .nb7#{$breakpointVariable} { margin-bottom: -$spacing-extra-extra-extra-large; }
-
-  .nt1#{$breakpointVariable} { margin-top: -$spacing-extra-small; }
-  .nt2#{$breakpointVariable} { margin-top: -$spacing-small; }
-  .nt3#{$breakpointVariable} { margin-top: -$spacing-medium; }
-  .nt4#{$breakpointVariable} { margin-top: -$spacing-large; }
-  .nt5#{$breakpointVariable} { margin-top: -$spacing-extra-large; }
-  .nt6#{$breakpointVariable} { margin-top: -$spacing-extra-extra-large; }
-  .nt7#{$breakpointVariable} { margin-top: -$spacing-extra-extra-extra-large; }
+    .nl#{$label}#{$breakpoint-variable} { margin-left: -$size; }
+    .nr#{$label}#{$breakpoint-variable} { margin-right: -$size; }
+    .nb#{$label}#{$breakpoint-variable} { margin-bottom: -$size; }
+    .nt#{$label}#{$breakpoint-variable} { margin-top: -$size; }
+  }
 
 }

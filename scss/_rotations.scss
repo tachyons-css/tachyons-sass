@@ -8,12 +8,12 @@
 
 @include generateCodeForBreakpoints(){
 
-  .rotate-45#{$breakpointVariable} { transform: rotate(45deg); }
-  .rotate-90#{$breakpointVariable} { transform: rotate(90deg); }
-  .rotate-135#{$breakpointVariable} { transform: rotate(135deg); }
-  .rotate-180#{$breakpointVariable} { transform: rotate(180deg); }
-  .rotate-225#{$breakpointVariable} { transform: rotate(225deg); }
-  .rotate-270#{$breakpointVariable} { transform: rotate(270deg); }
-  .rotate-315#{$breakpointVariable} { transform: rotate(315deg); }
+  .rotate-45#{$breakpoint-variable} { transform: rotate(45deg); }
+  .rotate-90#{$breakpoint-variable} { transform: rotate(90deg); }
+  .rotate-135#{$breakpoint-variable} { transform: rotate(135deg); }
+  .rotate-180#{$breakpoint-variable} { transform: rotate(180deg); }
+  .rotate-225#{$breakpoint-variable} { transform: rotate(225deg); }
+  .rotate-270#{$breakpoint-variable} { transform: rotate(270deg); }
+  .rotate-315#{$breakpoint-variable} { transform: rotate(315deg); }
 
 }

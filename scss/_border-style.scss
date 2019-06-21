@@ -19,10 +19,10 @@
  */
 @include generateCodeForBreakpoints(){
 
-  .b--dotted#{$breakpointVariable} { border-style: dotted; }
-  .b--dashed#{$breakpointVariable} { border-style: dashed; }
-  .b--solid#{$breakpointVariable}  { border-style: solid; }
-  .b--none#{$breakpointVariable}   { border-style: none; }
+  .b--dotted#{$breakpoint-variable} { border-style: dotted; }
+  .b--dashed#{$breakpoint-variable} { border-style: dashed; }
+  .b--solid#{$breakpoint-variable}  { border-style: solid; }
+  .b--none#{$breakpoint-variable}   { border-style: none; }
 
 }
 

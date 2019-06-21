@@ -27,23 +27,14 @@
 @include generateCodeForBreakpoints(){
 
   /* Max Width Percentages */
-
-  .mw-100#{$breakpointVariable} { max-width: 100%; }
+  .mw-100#{$breakpoint-variable} { max-width: 100%; }
 
   /* Max Width Scale */
-
-  .mw1#{$breakpointVariable} {  max-width: $max-width-1; }
-  .mw2#{$breakpointVariable} {  max-width: $max-width-2; }
-  .mw3#{$breakpointVariable} {  max-width: $max-width-3; }
-  .mw4#{$breakpointVariable} {  max-width: $max-width-4; }
-  .mw5#{$breakpointVariable} {  max-width: $max-width-5; }
-  .mw6#{$breakpointVariable} {  max-width: $max-width-6; }
-  .mw7#{$breakpointVariable} {  max-width: $max-width-7; }
-  .mw8#{$breakpointVariable} {  max-width: $max-width-8; }
-  .mw9#{$breakpointVariable} {  max-width: $max-width-9; }
+  @each $label, $size in $max-widths {
+    .mw#{$label}#{$breakpoint-variable} {  max-width: $size; }
+  }
 
   /* Max Width String Properties */
-
-  .mw-none#{$breakpointVariable} { max-width: none; }
+  .mw-none#{$breakpoint-variable} { max-width: none; }
 
 }

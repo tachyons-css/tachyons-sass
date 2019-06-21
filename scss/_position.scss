@@ -8,10 +8,10 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .static#{$breakpointVariable} { position: static; }
-  .relative#{$breakpointVariable}  { position: relative; }
-  .absolute#{$breakpointVariable}  { position: absolute; }
-  .fixed#{$breakpointVariable}  { position: fixed; }
+  .static#{$breakpoint-variable} { position: static; }
+  .relative#{$breakpoint-variable}  { position: relative; }
+  .absolute#{$breakpoint-variable}  { position: absolute; }
+  .fixed#{$breakpoint-variable}  { position: fixed; }
 
 }
 

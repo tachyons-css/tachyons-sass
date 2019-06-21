@@ -8,8 +8,8 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .strike#{$breakpointVariable}       { text-decoration: line-through; }
-  .underline#{$breakpointVariable}    { text-decoration: underline; }
-  .no-underline#{$breakpointVariable} { text-decoration: none; }
+  .strike#{$breakpoint-variable}       { text-decoration: line-through; }
+  .underline#{$breakpoint-variable}    { text-decoration: underline; }
+  .no-underline#{$breakpoint-variable} { text-decoration: none; }
 
 }

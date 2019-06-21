@@ -23,17 +23,17 @@
 
 @include generateCodeForBreakpoints(){
 
-  .normal#{$breakpointVariable} { font-weight: normal; }
-  .b#{$breakpointVariable}      { font-weight: bold; }
-  .fw1#{$breakpointVariable}    { font-weight: 100; }
-  .fw2#{$breakpointVariable}    { font-weight: 200; }
-  .fw3#{$breakpointVariable}    { font-weight: 300; }
-  .fw4#{$breakpointVariable}    { font-weight: 400; }
-  .fw5#{$breakpointVariable}    { font-weight: 500; }
-  .fw6#{$breakpointVariable}    { font-weight: 600; }
-  .fw7#{$breakpointVariable}    { font-weight: 700; }
-  .fw8#{$breakpointVariable}    { font-weight: 800; }
-  .fw9#{$breakpointVariable}    { font-weight: 900; }
+  .normal#{$breakpoint-variable} { font-weight: normal; }
+  .b#{$breakpoint-variable}      { font-weight: bold; }
+  .fw1#{$breakpoint-variable}    { font-weight: 100; }
+  .fw2#{$breakpoint-variable}    { font-weight: 200; }
+  .fw3#{$breakpoint-variable}    { font-weight: 300; }
+  .fw4#{$breakpoint-variable}    { font-weight: 400; }
+  .fw5#{$breakpoint-variable}    { font-weight: 500; }
+  .fw6#{$breakpoint-variable}    { font-weight: 600; }
+  .fw7#{$breakpoint-variable}    { font-weight: 700; }
+  .fw8#{$breakpoint-variable}    { font-weight: 800; }
+  .fw9#{$breakpoint-variable}    { font-weight: 900; }
 
 }
 

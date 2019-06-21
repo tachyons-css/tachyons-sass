@@ -38,30 +38,18 @@
 @include generateCodeForBreakpoints(){
 
   /* Width Scale */
+  @each $label, $size in $widths {
+    .w#{$label}#{$breakpoint-variable} { width: $size; }
+  }
 
-  .w1#{$breakpointVariable} {    width: $width-1; }
-  .w2#{$breakpointVariable} {    width: $width-2; }
-  .w3#{$breakpointVariable} {    width: $width-3; }
-  .w4#{$breakpointVariable} {    width: $width-4; }
-  .w5#{$breakpointVariable} {    width: $width-5; }
+  /* Width Percentage */
+  @each $label, $size in $widths-percentage {
+    .w-#{$label}#{$breakpoint-variable} { width: $size; }
+  }
 
-  .w-10#{$breakpointVariable} {  width:  10%; }
-  .w-20#{$breakpointVariable} {  width:  20%; }
-  .w-25#{$breakpointVariable} {  width:  25%; }
-  .w-30#{$breakpointVariable} {  width:  30%; }
-  .w-33#{$breakpointVariable} {  width:  33%; }
-  .w-34#{$breakpointVariable} {  width:  34%; }
-  .w-40#{$breakpointVariable} {  width:  40%; }
-  .w-50#{$breakpointVariable} {  width:  50%; }
-  .w-60#{$breakpointVariable} {  width:  60%; }
-  .w-70#{$breakpointVariable} {  width:  70%; }
-  .w-75#{$breakpointVariable} {  width:  75%; }
-  .w-80#{$breakpointVariable} {  width:  80%; }
-  .w-90#{$breakpointVariable} {  width:  90%; }
-  .w-100#{$breakpointVariable} { width: 100%; }
-
-  .w-third#{$breakpointVariable} { width: (100% / 3); }
-  .w-two-thirds#{$breakpointVariable} { width: (100% / 1.5); }
-  .w-auto#{$breakpointVariable} { width: auto; }
+  // Breakpoints Width
+  .w-third#{$breakpoint-variable} { width: (100% / 3); }
+  .w-two-thirds#{$breakpoint-variable} { width: (100% / 1.5); }
+  .w-auto#{$breakpoint-variable} { width: auto; }
 
 }

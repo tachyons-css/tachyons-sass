@@ -12,15 +12,15 @@
 */
 @include generateCodeForBreakpoints(){
 
-  .clip#{$breakpointVariable} {
+  .clip#{$breakpoint-variable} {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
   }
 
-  .vish#{$breakpointVariable} { visibility: hidden }
-  .visv#{$breakpointVariable} { visibility: visible }
-  .visi#{$breakpointVariable} { visibility: initial }
-  .visin#{$breakpointVariable} { visibility: inherit }
+  .vih#{$breakpoint-variable} { visibility: hidden }
+  .viv#{$breakpoint-variable} { visibility: visible }
+  .viit#{$breakpoint-variable} { visibility: initial }
+  .viih#{$breakpoint-variable} { visibility: inherit }
 }
