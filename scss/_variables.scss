@@ -1,11 +1,14 @@
-
 // Converted Variables
 
+// Font-Stack
 $sans-serif: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif !default;
 $serif: georgia, serif !default;
 $code: consolas, monaco, monospace !default;
+
+// Headlines
 $font-size-headline: 6rem !default;
 $font-size-subheadline: 5rem !default;
+
 $font-size-1: 3rem !default;
 $font-size-2: 2.25rem !default;
 $font-size-3: 1.5rem !default;
@@ -63,11 +66,11 @@ $border-width-2: .25rem !default;
 $border-width-3: .5rem !default;
 $border-width-4: 1rem !default;
 $border-width-5: 2rem !default;
-$box-shadow-1: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ) !default;
-$box-shadow-2: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ) !default;
-$box-shadow-3: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ) !default;
-$box-shadow-4: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ) !default;
-$box-shadow-5: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ) !default;
+$box-shadow-1: 0px 0px 4px 2px rgba(0, 0, 0, 0.2) !default;
+$box-shadow-2: 0px 0px 8px 2px rgba(0, 0, 0, 0.2) !default;
+$box-shadow-3: 2px 2px 4px 2px rgba(0, 0, 0, 0.2) !default;
+$box-shadow-4: 2px 2px 8px 0px rgba(0, 0, 0, 0.2) !default;
+$box-shadow-5: 4px 4px 8px 0px rgba(0, 0, 0, 0.2) !default;
 $black: #000 !default;
 $near-black: #111 !default;
 $dark-gray: #333 !default;
@@ -80,30 +83,30 @@ $light-gray: #eee !default;
 $near-white: #f4f4f4 !default;
 $white: #fff !default;
 $transparent: transparent !default;
-$black-90: rgba(0,0,0,.9) !default;
-$black-80: rgba(0,0,0,.8) !default;
-$black-70: rgba(0,0,0,.7) !default;
-$black-60: rgba(0,0,0,.6) !default;
-$black-50: rgba(0,0,0,.5) !default;
-$black-40: rgba(0,0,0,.4) !default;
-$black-30: rgba(0,0,0,.3) !default;
-$black-20: rgba(0,0,0,.2) !default;
-$black-10: rgba(0,0,0,.1) !default;
-$black-05: rgba(0,0,0,.05) !default;
-$black-025: rgba(0,0,0,.025) !default;
-$black-0125: rgba(0,0,0,.0125) !default;
-$white-90: rgba(255,255,255,.9) !default;
-$white-80: rgba(255,255,255,.8) !default;
-$white-70: rgba(255,255,255,.7) !default;
-$white-60: rgba(255,255,255,.6) !default;
-$white-50: rgba(255,255,255,.5) !default;
-$white-40: rgba(255,255,255,.4) !default;
-$white-30: rgba(255,255,255,.3) !default;
-$white-20: rgba(255,255,255,.2) !default;
-$white-10: rgba(255,255,255,.1) !default;
-$white-05: rgba(255,255,255,.05) !default;
-$white-025: rgba(255,255,255,.025) !default;
-$white-0125: rgba(255,255,255,.0125) !default;
+$black-90: rgba(0, 0, 0, .9) !default;
+$black-80: rgba(0, 0, 0, .8) !default;
+$black-70: rgba(0, 0, 0, .7) !default;
+$black-60: rgba(0, 0, 0, .6) !default;
+$black-50: rgba(0, 0, 0, .5) !default;
+$black-40: rgba(0, 0, 0, .4) !default;
+$black-30: rgba(0, 0, 0, .3) !default;
+$black-20: rgba(0, 0, 0, .2) !default;
+$black-10: rgba(0, 0, 0, .1) !default;
+$black-05: rgba(0, 0, 0, .05) !default;
+$black-025: rgba(0, 0, 0, .025) !default;
+$black-0125: rgba(0, 0, 0, .0125) !default;
+$white-90: rgba(255, 255, 255, .9) !default;
+$white-80: rgba(255, 255, 255, .8) !default;
+$white-70: rgba(255, 255, 255, .7) !default;
+$white-60: rgba(255, 255, 255, .6) !default;
+$white-50: rgba(255, 255, 255, .5) !default;
+$white-40: rgba(255, 255, 255, .4) !default;
+$white-30: rgba(255, 255, 255, .3) !default;
+$white-20: rgba(255, 255, 255, .2) !default;
+$white-10: rgba(255, 255, 255, .1) !default;
+$white-05: rgba(255, 255, 255, .05) !default;
+$white-025: rgba(255, 255, 255, .025) !default;
+$white-0125: rgba(255, 255, 255, .0125) !default;
 $dark-red: #e7040f !default;
 $red: #ff4136 !default;
 $light-red: #ff725c !default;
@@ -131,21 +134,19 @@ $washed-yellow: #fffceb !default;
 $washed-red: #ffdfdf !default;
 
 // Custom Media Query Variables
-
-//$breakpoint-not-small: 'screen and (min-width: 30em)' !default;
-//$breakpoint-medium: 'screen and (min-width: 30em) and (max-width: 60em)' !default;
-//$breakpoint-large: 'screen and (min-width: 60em)' !default;
-
 /*
-
-    VARIABLES
-
-*/
-
+ Custom Media Query Variables
+ Breakpoint Generation with multiple Breakpoints
+ The Default Option "":"" must be empty for Generating the default Code
+ */
 $breakpoints: (
   "":"",
   "ns": "screen and (min-width: 30em)",
   "m": "screen and (min-width: 30em) and (max-width: 60em)",
   "l": "screen and (min-width: 60em)"
-)
+) !default;
+
+/*
+    VARIABLES
+*/
 
