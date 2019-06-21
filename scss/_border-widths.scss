@@ -1,12 +1,8 @@
 
 // Converted Variables
-
-
 // Custom Media Query Variables
 
-
 /*
-
    BORDER WIDTHS
    Docs: http://tachyons.io/docs/themes/borders/
 
@@ -20,62 +16,19 @@
      3 = 3rd step in border-width scale
      4 = 4th step in border-width scale
      5 = 5th step in border-width scale
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
 */
+@include generateCodeForBreakpoints(){
 
-.bw0 { border-width: $border-width-none; }
-.bw1 { border-width: $border-width-1; }
-.bw2 { border-width: $border-width-2; }
-.bw3 { border-width: $border-width-3; }
-.bw4 { border-width: $border-width-4; }
-.bw5 { border-width: $border-width-5; }
+  @each $label, $size in $border-width {
+    .bw#{$label}#{$breakpoint-variable} { border-width: $size; }
+  }
 
-/* Resets */
-.bt-0 { border-top-width: $border-width-none }
-.br-0 { border-right-width: $border-width-none }
-.bb-0 { border-bottom-width: $border-width-none }
-.bl-0 { border-left-width: $border-width-none }
+  /* Resets */
+  .bt-0#{$breakpoint-variable} { border-top-width: map-get($border-width, 0) }
+  .br-0#{$breakpoint-variable} { border-right-width: map-get($border-width, 0) }
+  .bb-0#{$breakpoint-variable} { border-bottom-width: map-get($border-width, 0) }
+  .bl-0#{$breakpoint-variable} { border-left-width: map-get($border-width, 0) }
 
-@media #{$breakpoint-not-small} {
-  .bw0-ns { border-width: $border-width-none; }
-  .bw1-ns { border-width: $border-width-1; }
-  .bw2-ns { border-width: $border-width-2; }
-  .bw3-ns { border-width: $border-width-3; }
-  .bw4-ns { border-width: $border-width-4; }
-  .bw5-ns { border-width: $border-width-5; }
-  .bt-0-ns { border-top-width: $border-width-none }
-  .br-0-ns { border-right-width: $border-width-none }
-  .bb-0-ns { border-bottom-width: $border-width-none }
-  .bl-0-ns { border-left-width: $border-width-none }
 }
 
-@media #{$breakpoint-medium} {
-  .bw0-m { border-width: $border-width-none; }
-  .bw1-m { border-width: $border-width-1; }
-  .bw2-m { border-width: $border-width-2; }
-  .bw3-m { border-width: $border-width-3; }
-  .bw4-m { border-width: $border-width-4; }
-  .bw5-m { border-width: $border-width-5; }
-  .bt-0-m { border-top-width: $border-width-none }
-  .br-0-m { border-right-width: $border-width-none }
-  .bb-0-m { border-bottom-width: $border-width-none }
-  .bl-0-m { border-left-width: $border-width-none }
-}
 
-@media #{$breakpoint-large} {
-  .bw0-l { border-width: $border-width-none; }
-  .bw1-l { border-width: $border-width-1; }
-  .bw2-l { border-width: $border-width-2; }
-  .bw3-l { border-width: $border-width-3; }
-  .bw4-l { border-width: $border-width-4; }
-  .bw5-l { border-width: $border-width-5; }
-  .bt-0-l { border-top-width: $border-width-none }
-  .br-0-l { border-right-width: $border-width-none }
-  .bb-0-l { border-bottom-width: $border-width-none }
-  .bl-0-l { border-left-width: $border-width-none }
-}
