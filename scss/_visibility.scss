@@ -19,4 +19,8 @@
     clip: rect(1px, 1px, 1px, 1px);
   }
 
+  .vish#{$breakpointVariable} { visibility: hidden }
+  .visv#{$breakpointVariable} { visibility: visible }
+  .visi#{$breakpointVariable} { visibility: initial }
+  .visin#{$breakpointVariable} { visibility: inherit }
 }
