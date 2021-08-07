@@ -1,8 +1,5 @@
-// import fs from 'fs'
 const fs = require('fs');
-// import test from 'ava'
 const test = require('ava');
-// import sass from 'node-sass'
 const sass = require('node-sass');
 
 
