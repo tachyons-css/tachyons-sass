@@ -1,6 +1,7 @@
-import fs from 'fs'
-import test from 'ava'
-import sass from 'node-sass'
+const fs = require('fs');
+const test = require('ava');
+const sass = require('node-sass');
+
 
 test('tachyons-sass is able to be compiled by node-sass', t => {
   t.plan(1)
