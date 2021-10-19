@@ -4,6 +4,7 @@
   "author": "John Otander",
   "version": "4.9.5",
   "style": "tachyons.scss",
+  "main": "tachyons.scss",
   "scripts": {
     "start": "node build.js",
     "test": "ava",
