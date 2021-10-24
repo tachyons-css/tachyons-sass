@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -21,21 +22,21 @@
 .v-top      { vertical-align: top; }
 .v-btm      { vertical-align: bottom; }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .v-base-ns     { vertical-align: baseline; }
   .v-mid-ns      { vertical-align: middle; }
   .v-top-ns      { vertical-align: top; }
   .v-btm-ns      { vertical-align: bottom; }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .v-base-m     { vertical-align: baseline; }
   .v-mid-m      { vertical-align: middle; }
   .v-top-m      { vertical-align: top; }
   .v-btm-m      { vertical-align: bottom; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .v-base-l     { vertical-align: baseline; }
   .v-mid-l      { vertical-align: middle; }
   .v-top-l      { vertical-align: top; }

@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -23,19 +24,19 @@
 .no-underline { text-decoration: none; }
 
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .strike-ns       { text-decoration: line-through; }
   .underline-ns    { text-decoration: underline; }
   .no-underline-ns { text-decoration: none; }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .strike-m       { text-decoration: line-through; }
   .underline-m    { text-decoration: underline; }
   .no-underline-m { text-decoration: none; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .strike-l       { text-decoration: line-through; }
   .underline-l {    text-decoration: underline; }
   .no-underline-l { text-decoration: none; }

@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -79,7 +80,7 @@
 .flex-shrink-0 { flex-shrink: 0; }
 .flex-shrink-1 { flex-shrink: 1; }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .flex-ns { display: flex; }
   .inline-flex-ns { display: inline-flex; }
   .flex-auto-ns {
@@ -137,7 +138,7 @@
   .flex-shrink-0-ns { flex-shrink: 0; }
   .flex-shrink-1-ns { flex-shrink: 1; }
 }
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .flex-m { display: flex; }
   .inline-flex-m { display: inline-flex; }
   .flex-auto-m {
@@ -196,7 +197,7 @@
   .flex-shrink-1-m { flex-shrink: 1; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .flex-l { display: flex; }
   .inline-flex-l { display: inline-flex; }
   .flex-auto-l {

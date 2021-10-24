@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -57,7 +58,7 @@
     z-index: 100;
 }
 
-@media #{$breakpoint-not-small}{
+@media #{variables.$breakpoint-not-small}{
     .aspect-ratio-ns {
       height: 0;
       position: relative;
@@ -85,7 +86,7 @@
     }
 }
 
-@media #{$breakpoint-medium}{
+@media #{variables.$breakpoint-medium}{
     .aspect-ratio-m {
       height: 0;
       position: relative;
@@ -113,7 +114,7 @@
     }
 }
 
-@media #{$breakpoint-large}{
+@media #{variables.$breakpoint-large}{
     .aspect-ratio-l {
       height: 0;
       position: relative;

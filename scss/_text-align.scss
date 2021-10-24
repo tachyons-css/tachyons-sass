@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -31,21 +32,21 @@
 .tc  { text-align: center; }
 .tj  { text-align: justify; }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .tl-ns  { text-align: left; }
   .tr-ns  { text-align: right; }
   .tc-ns  { text-align: center; }
   .tj-ns  { text-align: justify; }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .tl-m  { text-align: left; }
   .tr-m  { text-align: right; }
   .tc-m  { text-align: center; }
   .tj-m  { text-align: justify; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .tl-l  { text-align: left; }
   .tr-l  { text-align: right; }
   .tc-l  { text-align: center; }

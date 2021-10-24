@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -14,11 +15,11 @@
 
 
 .sans-serif {
-  font-family: $sans-serif;
+  font-family: variables.$sans-serif;
 }
 
 .serif {
-  font-family: $serif;
+  font-family: variables.$serif;
 }
 
 .system-sans-serif {
