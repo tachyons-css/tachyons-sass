@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -21,17 +22,17 @@
 
 /* Measure is limited to ~66 characters */
 .measure {
-  max-width: $measure;
+  max-width: variables.$measure;
 }
 
 /* Measure is limited to ~80 characters */
 .measure-wide {
-  max-width: $measure-wide;
+  max-width: variables.$measure-wide;
 }
 
 /* Measure is limited to ~45 characters */
 .measure-narrow {
-  max-width: $measure-narrow;
+  max-width: variables.$measure-narrow;
 }
 
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
@@ -53,15 +54,15 @@
   text-overflow: ellipsis;
 }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .measure-ns  {
-    max-width: $measure;
+    max-width: variables.$measure;
   }
   .measure-wide-ns {
-    max-width: $measure-wide;
+    max-width: variables.$measure-wide;
   }
   .measure-narrow-ns {
-    max-width: $measure-narrow;
+    max-width: variables.$measure-narrow;
   }
   .indent-ns {
     text-indent: 1em;
@@ -78,15 +79,15 @@
   }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .measure-m {
-    max-width: $measure;
+    max-width: variables.$measure;
   }
   .measure-wide-m {
-    max-width: $measure-wide;
+    max-width: variables.$measure-wide;
   }
   .measure-narrow-m {
-    max-width: $measure-narrow;
+    max-width: variables.$measure-narrow;
   }
   .indent-m {
     text-indent: 1em;
@@ -103,15 +104,15 @@
   }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .measure-l {
-    max-width: $measure;
+    max-width: variables.$measure;
   }
   .measure-wide-l {
-    max-width: $measure-wide;
+    max-width: variables.$measure-wide;
   }
   .measure-narrow-l {
-    max-width: $measure-narrow;
+    max-width: variables.$measure-narrow;
   }
   .indent-l {
     text-indent: 1em;

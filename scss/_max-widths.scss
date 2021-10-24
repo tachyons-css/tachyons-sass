@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -42,64 +43,64 @@
 
 /* Max Width Scale */
 
-.mw1  {  max-width: $max-width-1; }
-.mw2  {  max-width: $max-width-2; }
-.mw3  {  max-width: $max-width-3; }
-.mw4  {  max-width: $max-width-4; }
-.mw5  {  max-width: $max-width-5; }
-.mw6  {  max-width: $max-width-6; }
-.mw7  {  max-width: $max-width-7; }
-.mw8  {  max-width: $max-width-8; }
-.mw9  {  max-width: $max-width-9; }
+.mw1  {  max-width: variables.$max-width-1; }
+.mw2  {  max-width: variables.$max-width-2; }
+.mw3  {  max-width: variables.$max-width-3; }
+.mw4  {  max-width: variables.$max-width-4; }
+.mw5  {  max-width: variables.$max-width-5; }
+.mw6  {  max-width: variables.$max-width-6; }
+.mw7  {  max-width: variables.$max-width-7; }
+.mw8  {  max-width: variables.$max-width-8; }
+.mw9  {  max-width: variables.$max-width-9; }
 
 /* Max Width String Properties */
 
 .mw-none { max-width: none; }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .mw-100-ns  { max-width: 100%; }
 
-  .mw1-ns  {  max-width: $max-width-1; }
-  .mw2-ns  {  max-width: $max-width-2; }
-  .mw3-ns  {  max-width: $max-width-3; }
-  .mw4-ns  {  max-width: $max-width-4; }
-  .mw5-ns  {  max-width: $max-width-5; }
-  .mw6-ns  {  max-width: $max-width-6; }
-  .mw7-ns  {  max-width: $max-width-7; }
-  .mw8-ns  {  max-width: $max-width-8; }
-  .mw9-ns  {  max-width: $max-width-9; }
+  .mw1-ns  {  max-width: variables.$max-width-1; }
+  .mw2-ns  {  max-width: variables.$max-width-2; }
+  .mw3-ns  {  max-width: variables.$max-width-3; }
+  .mw4-ns  {  max-width: variables.$max-width-4; }
+  .mw5-ns  {  max-width: variables.$max-width-5; }
+  .mw6-ns  {  max-width: variables.$max-width-6; }
+  .mw7-ns  {  max-width: variables.$max-width-7; }
+  .mw8-ns  {  max-width: variables.$max-width-8; }
+  .mw9-ns  {  max-width: variables.$max-width-9; }
 
   .mw-none-ns { max-width: none; }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .mw-100-m  { max-width: 100%; }
 
-  .mw1-m  {  max-width: $max-width-1; }
-  .mw2-m  {  max-width: $max-width-2; }
-  .mw3-m  {  max-width: $max-width-3; }
-  .mw4-m  {  max-width: $max-width-4; }
-  .mw5-m  {  max-width: $max-width-5; }
-  .mw6-m  {  max-width: $max-width-6; }
-  .mw7-m  {  max-width: $max-width-7; }
-  .mw8-m  {  max-width: $max-width-8; }
-  .mw9-m  {  max-width: $max-width-9; }
+  .mw1-m  {  max-width: variables.$max-width-1; }
+  .mw2-m  {  max-width: variables.$max-width-2; }
+  .mw3-m  {  max-width: variables.$max-width-3; }
+  .mw4-m  {  max-width: variables.$max-width-4; }
+  .mw5-m  {  max-width: variables.$max-width-5; }
+  .mw6-m  {  max-width: variables.$max-width-6; }
+  .mw7-m  {  max-width: variables.$max-width-7; }
+  .mw8-m  {  max-width: variables.$max-width-8; }
+  .mw9-m  {  max-width: variables.$max-width-9; }
 
   .mw-none-m { max-width: none; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .mw-100-l  { max-width: 100%; }
 
-  .mw1-l  {  max-width: $max-width-1; }
-  .mw2-l  {  max-width: $max-width-2; }
-  .mw3-l  {  max-width: $max-width-3; }
-  .mw4-l  {  max-width: $max-width-4; }
-  .mw5-l  {  max-width: $max-width-5; }
-  .mw6-l  {  max-width: $max-width-6; }
-  .mw7-l  {  max-width: $max-width-7; }
-  .mw8-l  {  max-width: $max-width-8; }
-  .mw9-l  {  max-width: $max-width-9; }
+  .mw1-l  {  max-width: variables.$max-width-1; }
+  .mw2-l  {  max-width: variables.$max-width-2; }
+  .mw3-l  {  max-width: variables.$max-width-3; }
+  .mw4-l  {  max-width: variables.$max-width-4; }
+  .mw5-l  {  max-width: variables.$max-width-5; }
+  .mw6-l  {  max-width: variables.$max-width-6; }
+  .mw7-l  {  max-width: variables.$max-width-7; }
+  .mw8-l  {  max-width: variables.$max-width-8; }
+  .mw9-l  {  max-width: variables.$max-width-9; }
 
   .mw-none-l { max-width: none; }
 }

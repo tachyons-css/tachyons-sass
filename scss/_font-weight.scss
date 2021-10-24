@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -44,7 +45,7 @@
 .fw9    { font-weight: 900; }
 
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .normal-ns { font-weight: normal; }
   .b-ns      { font-weight: bold; }
   .fw1-ns    { font-weight: 100; }
@@ -58,7 +59,7 @@
   .fw9-ns    { font-weight: 900; }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .normal-m { font-weight: normal; }
   .b-m      { font-weight: bold; }
   .fw1-m    { font-weight: 100; }
@@ -72,7 +73,7 @@
   .fw9-m    { font-weight: 900; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .normal-l { font-weight: normal; }
   .b-l      { font-weight: bold; }
   .fw1-l    { font-weight: 100; }

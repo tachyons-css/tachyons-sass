@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -51,7 +52,7 @@
   background-position: center left;   
 }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .bg-center-ns { 
     background-repeat: no-repeat;
     background-position: center center; 
@@ -78,7 +79,7 @@
   }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .bg-center-m { 
     background-repeat: no-repeat;
     background-position: center center; 
@@ -105,7 +106,7 @@
   }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .bg-center-l { 
     background-repeat: no-repeat;
     background-position: center center; 

@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -18,25 +19,25 @@
 }
 
 .striped--light-silver:nth-child(odd) {
-  background-color: $light-silver;
+  background-color: variables.$light-silver;
 }
 
 .striped--moon-gray:nth-child(odd) {
-  background-color: $moon-gray;
+  background-color: variables.$moon-gray;
 }
 
 .striped--light-gray:nth-child(odd) {
-  background-color: $light-gray;
+  background-color: variables.$light-gray;
 }
 
 .striped--near-white:nth-child(odd) {
-  background-color: $near-white;
+  background-color: variables.$near-white;
 }
 
 .stripe-light:nth-child(odd) {
-  background-color: $white-10;
+  background-color: variables.$white-10;
 }
 
 .stripe-dark:nth-child(odd) {
-  background-color: $black-10;
+  background-color: variables.$black-10;
 }

@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -29,7 +30,7 @@
 .mr-auto { margin-right: auto; }
 .ml-auto { margin-left:  auto; }
 
-@media #{$breakpoint-not-small}{
+@media #{variables.$breakpoint-not-small}{
   .center-ns {
     margin-right: auto;
     margin-left: auto;
@@ -38,7 +39,7 @@
   .ml-auto-ns { margin-left:  auto; }
 }
 
-@media #{$breakpoint-medium}{
+@media #{variables.$breakpoint-medium}{
   .center-m {
     margin-right: auto;
     margin-left: auto;
@@ -47,7 +48,7 @@
   .ml-auto-m { margin-left:  auto; }
 }
 
-@media #{$breakpoint-large}{
+@media #{variables.$breakpoint-large}{
   .center-l {
     margin-right: auto;
     margin-left: auto;

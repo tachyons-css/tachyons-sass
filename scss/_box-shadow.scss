@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -17,32 +18,32 @@
 
  */
 
-.shadow-1 { box-shadow: $box-shadow-1; }
-.shadow-2 { box-shadow: $box-shadow-2; }
-.shadow-3 { box-shadow: $box-shadow-3; }
-.shadow-4 { box-shadow: $box-shadow-4; }
-.shadow-5 { box-shadow: $box-shadow-5; }
+.shadow-1 { box-shadow: variables.$box-shadow-1; }
+.shadow-2 { box-shadow: variables.$box-shadow-2; }
+.shadow-3 { box-shadow: variables.$box-shadow-3; }
+.shadow-4 { box-shadow: variables.$box-shadow-4; }
+.shadow-5 { box-shadow: variables.$box-shadow-5; }
 
-@media #{$breakpoint-not-small} {
-  .shadow-1-ns { box-shadow: $box-shadow-1; }
-  .shadow-2-ns { box-shadow: $box-shadow-2; }
-  .shadow-3-ns { box-shadow: $box-shadow-3; }
-  .shadow-4-ns { box-shadow: $box-shadow-4; }
-  .shadow-5-ns { box-shadow: $box-shadow-5; }
+@media #{variables.$breakpoint-not-small} {
+  .shadow-1-ns { box-shadow: variables.$box-shadow-1; }
+  .shadow-2-ns { box-shadow: variables.$box-shadow-2; }
+  .shadow-3-ns { box-shadow: variables.$box-shadow-3; }
+  .shadow-4-ns { box-shadow: variables.$box-shadow-4; }
+  .shadow-5-ns { box-shadow: variables.$box-shadow-5; }
 }
 
-@media #{$breakpoint-medium} {
-  .shadow-1-m { box-shadow: $box-shadow-1; }
-  .shadow-2-m { box-shadow: $box-shadow-2; }
-  .shadow-3-m { box-shadow: $box-shadow-3; }
-  .shadow-4-m { box-shadow: $box-shadow-4; }
-  .shadow-5-m { box-shadow: $box-shadow-5; }
+@media #{variables.$breakpoint-medium} {
+  .shadow-1-m { box-shadow: variables.$box-shadow-1; }
+  .shadow-2-m { box-shadow: variables.$box-shadow-2; }
+  .shadow-3-m { box-shadow: variables.$box-shadow-3; }
+  .shadow-4-m { box-shadow: variables.$box-shadow-4; }
+  .shadow-5-m { box-shadow: variables.$box-shadow-5; }
 }
 
-@media #{$breakpoint-large} {
-  .shadow-1-l { box-shadow: $box-shadow-1; }
-  .shadow-2-l { box-shadow: $box-shadow-2; }
-  .shadow-3-l { box-shadow: $box-shadow-3; }
-  .shadow-4-l { box-shadow: $box-shadow-4; }
-  .shadow-5-l { box-shadow: $box-shadow-5; }
+@media #{variables.$breakpoint-large} {
+  .shadow-1-l { box-shadow: variables.$box-shadow-1; }
+  .shadow-2-l { box-shadow: variables.$box-shadow-2; }
+  .shadow-3-l { box-shadow: variables.$box-shadow-3; }
+  .shadow-4-l { box-shadow: variables.$box-shadow-4; }
+  .shadow-5-l { box-shadow: variables.$box-shadow-5; }
 }

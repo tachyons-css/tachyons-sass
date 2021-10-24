@@ -1,3 +1,4 @@
+@use "variables";
 // Converted Variables
 
 
@@ -48,11 +49,11 @@
 
 /* Width Scale */
 
-.w1 {    width: $width-1; }
-.w2 {    width: $width-2; }
-.w3 {    width: $width-3; }
-.w4 {    width: $width-4; }
-.w5 {    width: $width-5; }
+.w1 {    width: variables.$width-1; }
+.w2 {    width: variables.$width-2; }
+.w3 {    width: variables.$width-3; }
+.w4 {    width: variables.$width-4; }
+.w5 {    width: variables.$width-5; }
 
 .w-10 {  width:  10%; }
 .w-20 {  width:  20%; }
@@ -73,12 +74,12 @@
 .w-two-thirds { width: calc(100% / 1.5); }
 .w-auto { width: auto; }
 
-@media #{$breakpoint-not-small} {
-  .w1-ns {  width: $width-1; }
-  .w2-ns {  width: $width-2; }
-  .w3-ns {  width: $width-3; }
-  .w4-ns {  width: $width-4; }
-  .w5-ns {  width: $width-5; }
+@media #{variables.$breakpoint-not-small} {
+  .w1-ns {  width: variables.$width-1; }
+  .w2-ns {  width: variables.$width-2; }
+  .w3-ns {  width: variables.$width-3; }
+  .w4-ns {  width: variables.$width-4; }
+  .w5-ns {  width: variables.$width-5; }
   .w-10-ns { width:  10%; }
   .w-20-ns { width:  20%; }
   .w-25-ns { width:  25%; }
@@ -98,12 +99,12 @@
   .w-auto-ns { width: auto; }
 }
 
-@media #{$breakpoint-medium} {
-  .w1-m {      width: $width-1; }
-  .w2-m {      width: $width-2; }
-  .w3-m {      width: $width-3; }
-  .w4-m {      width: $width-4; }
-  .w5-m {      width: $width-5; }
+@media #{variables.$breakpoint-medium} {
+  .w1-m {      width: variables.$width-1; }
+  .w2-m {      width: variables.$width-2; }
+  .w3-m {      width: variables.$width-3; }
+  .w4-m {      width: variables.$width-4; }
+  .w5-m {      width: variables.$width-5; }
   .w-10-m { width:  10%; }
   .w-20-m { width:  20%; }
   .w-25-m { width:  25%; }
@@ -123,12 +124,12 @@
   .w-auto-m {    width: auto; }
 }
 
-@media #{$breakpoint-large} {
-  .w1-l {      width: $width-1; }
-  .w2-l {      width: $width-2; }
-  .w3-l {      width: $width-3; }
-  .w4-l {      width: $width-4; }
-  .w5-l {      width: $width-5; }
+@media #{variables.$breakpoint-large} {
+  .w1-l {      width: variables.$width-1; }
+  .w2-l {      width: variables.$width-2; }
+  .w3-l {      width: variables.$width-3; }
+  .w4-l {      width: variables.$width-4; }
+  .w5-l {      width: variables.$width-5; }
   .w-10-l {    width:  10%; }
   .w-20-l {    width:  20%; }
   .w-25-l {    width:  25%; }

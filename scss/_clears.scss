@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -25,21 +26,21 @@
 .cb { clear: both; }
 .cn { clear: none; }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .cl-ns { clear: left; }
   .cr-ns { clear: right; }
   .cb-ns { clear: both; }
   .cn-ns { clear: none; }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .cl-m { clear: left; }
   .cr-m { clear: right; }
   .cb-m { clear: both; }
   .cn-m { clear: none; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .cl-l { clear: left; }
   .cr-l { clear: right; }
   .cb-l { clear: both; }

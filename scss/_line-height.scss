@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -17,25 +18,25 @@
 
 */
 
-  .lh-solid { line-height: $line-height-solid; }
-  .lh-title { line-height: $line-height-title; }
-  .lh-copy  { line-height: $line-height-copy; }
+  .lh-solid { line-height: variables.$line-height-solid; }
+  .lh-title { line-height: variables.$line-height-title; }
+  .lh-copy  { line-height: variables.$line-height-copy; }
 
-@media #{$breakpoint-not-small} {
-  .lh-solid-ns { line-height: $line-height-solid; }
-  .lh-title-ns { line-height: $line-height-title; }
-  .lh-copy-ns  { line-height: $line-height-copy; }
+@media #{variables.$breakpoint-not-small} {
+  .lh-solid-ns { line-height: variables.$line-height-solid; }
+  .lh-title-ns { line-height: variables.$line-height-title; }
+  .lh-copy-ns  { line-height: variables.$line-height-copy; }
 }
 
-@media #{$breakpoint-medium} {
-  .lh-solid-m { line-height: $line-height-solid; }
-  .lh-title-m { line-height: $line-height-title; }
-  .lh-copy-m  { line-height: $line-height-copy; }
+@media #{variables.$breakpoint-medium} {
+  .lh-solid-m { line-height: variables.$line-height-solid; }
+  .lh-title-m { line-height: variables.$line-height-title; }
+  .lh-copy-m  { line-height: variables.$line-height-copy; }
 }
 
-@media #{$breakpoint-large} {
-  .lh-solid-l { line-height: $line-height-solid; }
-  .lh-title-l { line-height: $line-height-title; }
-  .lh-copy-l  { line-height: $line-height-copy; }
+@media #{variables.$breakpoint-large} {
+  .lh-solid-l { line-height: variables.$line-height-solid; }
+  .lh-title-l { line-height: variables.$line-height-title; }
+  .lh-copy-l  { line-height: variables.$line-height-copy; }
 }
 

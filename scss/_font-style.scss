@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -20,17 +21,17 @@
 .i         { font-style: italic; }
 .fs-normal { font-style: normal; }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .i-ns       { font-style: italic; }
   .fs-normal-ns     { font-style: normal; }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .i-m       { font-style: italic; }
   .fs-normal-m     { font-style: normal; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .i-l       { font-style: italic; }
   .fs-normal-l     { font-style: normal; }
 }

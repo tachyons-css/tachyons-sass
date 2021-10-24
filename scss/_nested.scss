@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -16,7 +17,7 @@
 .nested-copy-line-height p,
 .nested-copy-line-height ul,
 .nested-copy-line-height ol {
-  line-height: $line-height-copy;
+  line-height: variables.$line-height-copy;
 }
 
 .nested-headline-line-height h1,
@@ -25,7 +26,7 @@
 .nested-headline-line-height h4,
 .nested-headline-line-height h5,
 .nested-headline-line-height h6 {
-  line-height: $line-height-title;
+  line-height: variables.$line-height-title;
 }
 
 .nested-list-reset ul,
@@ -36,13 +37,13 @@
 }
 
 .nested-copy-indent p+p {
-  text-indent: $letter-spacing-1;
-  margin-top: $spacing-none;
-  margin-bottom: $spacing-none;
+  text-indent: variables.$letter-spacing-1;
+  margin-top: variables.$spacing-none;
+  margin-bottom: variables.$spacing-none;
 }
 
 .nested-copy-seperator p+p {
-  margin-top: $spacing-copy-separator;
+  margin-top: variables.$spacing-copy-separator;
 }
 
 .nested-img img {
@@ -52,12 +53,12 @@
 }
 
 .nested-links a {
-  color: $blue;
+  color: variables.$blue;
   transition: color .15s ease-in;
 }
 
 .nested-links a:hover,
 .nested-links a:focus {
-  color: $light-blue;
+  color: variables.$light-blue;
   transition: color .15s ease-in;
 }

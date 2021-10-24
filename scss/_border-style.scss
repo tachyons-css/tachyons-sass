@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -33,21 +34,21 @@
 .b--solid {  border-style: solid; }
 .b--none {   border-style: none; }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .b--dotted-ns { border-style: dotted; }
   .b--dashed-ns { border-style: dashed; }
   .b--solid-ns {  border-style: solid; }
   .b--none-ns {   border-style: none; }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .b--dotted-m { border-style: dotted; }
   .b--dashed-m { border-style: dashed; }
   .b--solid-m {  border-style: solid; }
   .b--none-m {   border-style: none; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .b--dotted-l { border-style: dotted; }
   .b--dashed-l { border-style: dashed; }
   .b--solid-l {  border-style: solid; }

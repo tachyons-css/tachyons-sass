@@ -1,3 +1,4 @@
+@use "variables";
 
 // Converted Variables
 
@@ -31,21 +32,21 @@
 .ttu { text-transform: uppercase; }
 .ttn { text-transform: none; }
 
-@media #{$breakpoint-not-small} {
+@media #{variables.$breakpoint-not-small} {
   .ttc-ns { text-transform: capitalize; }
   .ttl-ns { text-transform: lowercase; }
   .ttu-ns { text-transform: uppercase; }
   .ttn-ns { text-transform: none; }
 }
 
-@media #{$breakpoint-medium} {
+@media #{variables.$breakpoint-medium} {
   .ttc-m { text-transform: capitalize; }
   .ttl-m { text-transform: lowercase; }
   .ttu-m { text-transform: uppercase; }
   .ttn-m { text-transform: none; }
 }
 
-@media #{$breakpoint-large} {
+@media #{variables.$breakpoint-large} {
   .ttc-l { text-transform: capitalize; }
   .ttl-l { text-transform: lowercase; }
   .ttu-l { text-transform: uppercase; }
